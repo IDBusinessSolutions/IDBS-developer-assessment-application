@@ -29,7 +29,7 @@ Once the application appears, further information on how to develop and integrat
 
 ![enter image description here](AssessmentApplication.PNG)
 
-Note: you need to have java (version 8 or above) installed in your environment to run the assessment application.
+Note: you need to have java 8 or greater installed in your environment to run the assessment application.
 
 
 
