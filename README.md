@@ -2,15 +2,16 @@
 
 Welcome to the IDBS Developer Assessment Application github repository.
 
-The purpose for this repo is to provide access for ***invited candidates*** to our assessment application. 
+The purpose for this repo is to provide access for ***invited candidates*** to our coding assessment application. 
 
-If you **have been invite** to complete the code assessment phase of our software developer  application process then please continue. If not, please leave the repository now - we will not accept developer assessment solutions from any persons other than those we have invited through our application process.
+If you **have been invite** to complete the code assessment phase of our software developer  application process then please continue. If you have **not** been invited, please leave the repository now - we will not accept developer assessment solutions from any persons other than those we have invited through our application process.
 
 # Getting Started
 
 ### Step One
 Download this repository to your local environment - either clone or download a zip of the repo.
-***A note forking:*** it is best NOT to fork the repository. By forking the repo you will create another ***public repo*** that all other candidates can see and use. This is non-ideal for your application process.
+
+***A note on forking:*** it is best NOT to fork the repository. By forking the repo you will create another ***public repo*** that all other candidates can see and use. This is non-ideal for your application process.
 
 ### Step Two
 Select your preferred language for your assessment challenge - either **java** or **javascript**. 
@@ -26,7 +27,7 @@ All instructions on how to develop, integrate and ultimately submit your solutio
 Once the application appears, further information on how to develop and integrate your coded solution can be found via the buttons ***Task Details*** and ***Integration Instructions***  at the top of the application's screen.
 
 Note: you need to have java (version 8 or above) installed in your environment to run the assessment application.
-
+![enter image description here](xyz.png)
 
 
 ### Step Three - javascript option
