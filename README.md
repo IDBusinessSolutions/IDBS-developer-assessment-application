@@ -29,5 +29,5 @@ Note: you need to have java (version 8 or above) installed in your environment t
 
 
 
-### Step Two - javascript option
-UNFORTUNATELY our javascript option has not yet been completed and is unavailable. Please complete our assessment in java instead.
+### Step Three - javascript option
+UNFORTUNATELY our javascript option has not yet been completed and is unavailable. Please complete our coding assessment in java instead.
