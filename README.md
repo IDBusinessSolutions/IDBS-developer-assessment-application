@@ -27,7 +27,7 @@ All instructions on how to develop, integrate and ultimately submit your solutio
 Once the application appears, further information on how to develop and integrate your coded solution can be found via the buttons ***Task Details*** and ***Integration Instructions***  at the top of the application's screen.
 
 Note: you need to have java (version 8 or above) installed in your environment to run the assessment application.
-![enter image description here](xyz.png)
+![enter image description here](AssessmentApplication.PNG)
 
 
 ### Step Three - javascript option
