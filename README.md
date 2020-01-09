@@ -18,8 +18,8 @@ Select your preferred language for your assessment challenge - either **java** o
 The choice of language is entirely yours, we do not mind which you select. The same coding challenge is set in both languages and the difficulty level is the same for both languages.
 
  - If you select java as your language, drill into the ***java_option*** folder
- - If you select javascript, drill into the ***java_option*** folder
- -- ***UNFORTUNATELY at the current time our javascript option unavailable***
+ - If you select javascript, drill into the ***javascript_option*** folder
+ -- ***UNFORTUNATELY at the current time our javascript option is unavailable***
 
 ### Step Three - java option
 All instructions on how to develop, integrate and ultimately submit your solution can be found by running the assessment application itself. This can be easily achieved by running the dos or linux command files found in the folder ***java-option***. 
