@@ -17,6 +17,7 @@ import com.idbs.devassessment.core.QuestionType;
 /**
  * Example solution for the example question - finding the average of an array of integers
  */
+
 public class CandidateSolution extends CandidateSolutionBase
 {
     @Override
@@ -28,8 +29,8 @@ public class CandidateSolution extends CandidateSolutionBase
     @Override
     public String getAnswer()
     {
-        // first get Json as a String for the question...
-        String json = getQuestion().getJson();
+        // first get Json as a String for the question using the inherited method...
+        String json = getJsonForQuestion();
 
         // now use the json api to read the json to give a JsonObject representing the Json...
         JsonReader reader = Json.createReader(new StringReader(json));
