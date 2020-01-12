@@ -22,9 +22,9 @@ The choice of language is entirely yours, we do not mind which you select. The s
  -- ***UNFORTUNATELY at the current time our javascript option is unavailable***
 
 ### Step Three - java option
-All instructions on how to develop, integrate and ultimately submit your solution can be found by running the assessment application itself. This can be easily achieved by running the dos or linux command files found in the folder ***java-option***. 
+All instructions on how to develop, integrate and ultimately submit your solution can be found by running the assessment application itself. This can be easily achieved by running the "windows cmd" or "bash sh" command line file found in the downloaded folder ***java-option***. 
 
-Once the application appears, further information on how to develop and integrate your coded solution can be found via the buttons ***Task Details*** and ***Integration Instructions***  at the top of the application's screen (see below).
+Once the application starts, further information on how to develop and integrate your coded solution can be found via the buttons ***Task Details*** and ***Integration Instructions***  at the top of the application's screen (see below).
 
 
 ![enter image description here](images/AssessmentApp.png)
