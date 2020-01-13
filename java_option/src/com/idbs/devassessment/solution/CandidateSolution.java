@@ -10,7 +10,6 @@ import javax.json.Json;
 import javax.json.JsonArray;
 import javax.json.JsonObject;
 import javax.json.JsonReader;
-import javax.json.JsonValue;
 
 import com.idbs.devassessment.core.QuestionType;
 
@@ -45,9 +44,10 @@ public class CandidateSolution extends CandidateSolutionBase
 
         // now sum the array
         int arraySum = 0;
-        for (JsonValue value : jsonArray)
+
+        for (int i = 0; i < jsonArray.size(); i++)
         {
-            arraySum += Integer.parseInt(value.toString());
+            arraySum += jsonArray.getInt(i);
         }
 
         // calculate the answer..
