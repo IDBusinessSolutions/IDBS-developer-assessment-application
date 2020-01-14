@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 1993-2019 ID Business Solutions Limited
+ * Copyright (C) 1993-2020 ID Business Solutions Limited
  * All rights reserved
  */
 package com.idbs.devassessment.solution;
@@ -22,7 +22,7 @@ public class CandidateSolution extends CandidateSolutionBase
     @Override
     public QuestionType getQuestionType()
     {
-        return QuestionType.Example;
+        return QuestionType.EXAMPLE;
     }
 
     @Override
