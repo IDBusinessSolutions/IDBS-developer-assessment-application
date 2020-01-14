@@ -22,7 +22,7 @@ public class CandidateSolution extends CandidateSolutionBase
     @Override
     public QuestionType getQuestionType()
     {
-        return QuestionType.EXAMPLE;
+        return QuestionType.IDBS_EXAMPLE;
     }
 
     @Override
