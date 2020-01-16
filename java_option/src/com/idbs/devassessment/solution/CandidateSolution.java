@@ -22,12 +22,26 @@ public class CandidateSolution extends CandidateSolutionBase
     @Override
     public QuestionType getQuestionType()
     {
+        /**
+         * 
+         * CHANGE this return type to YOUR selected choice of question that you will code an answer for.
+         * 
+         */
+        
         return QuestionType.IDBS_EXAMPLE;
     }
 
     @Override
     public String getAnswer()
     {
+        /*
+         * This is the default solution and provides some example code on how to extract data from Json in java.
+         * 
+         *  As an initial start we suggest you comment ALL the code below and return a null value from the method.
+         *  Run this in the assess application and you see many examples of the Json that question produces.
+         *   
+         */
+        
         // first get Json as a String for the question using the inherited method...
         String json = getJsonForQuestion();
 
@@ -36,6 +50,8 @@ public class CandidateSolution extends CandidateSolutionBase
         JsonObject jsonObject = reader.readObject();
         reader.close();
 
+        // now start extracting the data you need from the json....
+        
         // get the start value from the Json
         int startValue = jsonObject.getInt("startValue");
 
