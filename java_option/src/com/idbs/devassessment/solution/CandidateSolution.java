@@ -14,7 +14,7 @@ import javax.json.JsonReader;
 import com.idbs.devassessment.core.QuestionType;
 
 /**
- * Example solution for the example question - finding the average of an array of integers
+ * Example solution for the example question 
  */
 
 public class CandidateSolution extends CandidateSolutionBase
