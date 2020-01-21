@@ -26,6 +26,8 @@ All instructions on how to develop, integrate and ultimately submit your solutio
 
 Once the application starts, further information on how to develop and integrate your coded solution can be found via the buttons ***Task Details*** and ***Integration Instructions***  at the top of the application's screen (see below). The application initially displays the information from the ***Task Details*** screen.
 
+The application is a standalone application; it does not interact with the "outside world" (internet, your local machine, etc.) in anyway.
+
 Note: you need to have java 8 or greater installed in your environment to run the assessment application.
 
 ![enter image description here](images/AssessmentApp.png)
