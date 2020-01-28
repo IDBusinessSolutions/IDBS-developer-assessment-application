@@ -19,8 +19,8 @@ Download this repository to your local environment - either clone or download a 
 Select your preferred language for your assessment challenge - either **java** or **javascript**. 
 The choice of language is entirely yours, we do not mind which you select. The same coding challenge is set in both languages and the difficulty level is the same for both languages.
 
- - If you select java as your language, drill into the ***java_option*** folder
- - If you select javascript, drill into the ***javascript_option*** folder
+ - If you select java as your language, explore the ***java_option*** folder
+ - If you select javascript, explore the ***javascript_option*** folder
  -- ***UNFORTUNATELY at the current time our javascript option is unavailable***
 
 ### Step Three - java option
