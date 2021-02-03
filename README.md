@@ -22,7 +22,7 @@ Once the application starts, further information on how to develop and integrate
 
 The application is a standalone application; it does not interact with the "outside world" (internet, your local machine, etc.) in anyway.
 
-Note: you need to have java 8 or greater installed in your environment to run the assessment application.
+Note: you need to have java 8 or greater installed in your environment to run the assessment application. A video showing how to begin your development in IntelliJ has been provided. 
 
 ### Step Three - submit
 Once you have developed your java solution to our question, your solution works with no failures within the Assessment Application and you are happy with the quality of your code. You are ready to submit your solution to us for assessment. You will find submission details under the ***Integration Instructions*** button within the application. 
