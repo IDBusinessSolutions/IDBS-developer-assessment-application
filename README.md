@@ -13,10 +13,13 @@ If you **have been invited** to complete the code assessment phase of our softwa
 ### Step One - download
 Download this repository to your local environment - either clone or download a zip of the repo.
 
-***A note on forking:*** it is best NOT to fork the repository. By forking the repo you will create another ***public repo*** that all other candidates can see and use. This is non-ideal for your application process.
+*Use a Java 8 (1.8) environment and not in a java 9 (or later) for development and execution - this avoids the use of java modules aka Jigsaw* 
+
+***A note on forking:*** it is best NOT to fork the repository. By forking the repo you will create another ***public repo*** that all other candidates can see and use. Sharing your solution in this way is non-ideal for your application process.
 
 ### Step Two - write some java 
 All instructions on how to develop, integrate and ultimately submit your solution can be found by running the assessment application itself. This can be easily achieved by running the "windows cmd" or "bash sh" command line file found in the downloaded folder ***java***. 
+
 
 Once the application starts, further information on how to develop and integrate your coded solution can be found via the buttons ***Task Details*** and ***Integration Instructions***  at the top of the application's screen (see image below). The application initially displays the information from the ***Task Details*** screen.
 
