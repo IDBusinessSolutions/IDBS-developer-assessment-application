@@ -13,7 +13,7 @@ If you **have been invited** to complete the code assessment phase of our softwa
 ### Step One - download
 Download this repository to your local environment - either clone or download a zip of the repo.
 
-*Use a Java 8 (1.8) environment and not in a java 9 (or later) for development and execution - this avoids the use of java modules aka Jigsaw* 
+***Use a Java 8 (1.8) environment and not in a java 9 (or later) for development and execution - this avoids the use of java modules aka Jigsaw*** 
 
 ***A note on forking:*** it is best NOT to fork the repository. By forking the repo you will create another ***public repo*** that all other candidates can see and use. Sharing your solution in this way is non-ideal for your application process.
 
