@@ -20,7 +20,6 @@ If you have any questions or problems please reach out to us via the email provi
 ### Step Three - submit
 Once you have developed your python solution to our question, your solution works and you are happy with the quality of your code. You are ready to submit your solution to us for assessment. You will find submission details within the instructions. 
 
-![enter image description here](images/AssessmentApp.png)
 
 
 
