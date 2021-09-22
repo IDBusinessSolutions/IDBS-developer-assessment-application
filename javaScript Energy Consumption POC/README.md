@@ -1,5 +1,6 @@
 # Javascript Based Assessment Exercise
 Energy consumption POC. 
+**Please read Scenario Description.txt**
 
 Download and execute in nodeJS via command:
 
