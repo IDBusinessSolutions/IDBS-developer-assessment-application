@@ -1,0 +1,24 @@
+{
+   "data":{"record": 
+		[
+		  {
+			 "dateTime":"2 Jan 2021 12:34:00 CDT",
+			 "equipmentId":"fgh1j2j",
+			 "energyConsumption":"7319.73",
+			 "timeOn":"468299"
+		  },
+		  {
+			 "dateTime":"21 Mar 2021 15:46:00 CDT",
+			 "equipmentId":"ksd56l",
+			 "energyConsumption":"123116.90",
+			 "timeOn":"103242"
+		  },
+		  {
+			 "dateTime":"29 Aug 2021 08:00:00 CDT",
+			 "equipmentId":"ewr45",
+			 "energyConsumption":"6553.00",
+			 "timeOn":"92662"
+		  }
+		]
+   }
+}
