@@ -1,0 +1,28 @@
+The POC developed for this exercise has the following scenario
+==============================================================
+
+ - A large international company has many offices around the world
+ - The head office want to monitor and track energy usage within their individual offices
+ - They have purchased thousands of small electrical monitoring devices and deployed these to each office around the world.
+ - Each device measures the energy usage of an electrical appliance to which it is attached.
+ - Electrical usage data is sent from each office to a central system where it is collected and made available for statistical analysis.
+  
+ - The POC we have supplied reads this data for 4 representative offices, Guildford, Waterloo, Portland-Maine & Alameda. 
+ - Each office provides data for many devices with the following information provided for each electrical appliance.
+	- Date & Time of the energy reading
+	- Unique Identifier for the electrical appliance 
+	- The energy consumption of the electrical appliance (in watts per hour)
+	- The number of seconds the appliance was switch-on (in seconds)
+	
+ - The exact format of the data provided by each office may be different, but the key elements of the data (described above) will remain the same.
+ - We have provided four formats but in reality there are likely to be many more formats from other offices.
+
+
+ Objective of exercise
+ =====================
+ - The POC application can be executed and provides a set of calculated energy usage and a pass/fail result (i.e. it is self-testing)
+ - The POC code is NOT at the standard required for a production system.
+ - You are tasked with refactoring this code to be closer to production level code
+ 
+ - PLEASE DO NOT MAKE CODE CHANGES BEFORE THE INTERVIEW...we'd like to work with you during the interview to discuss and make changes
+ - DO NOT REFACTOR CLASSES in the com.idbs.simpleassessment.poc.livefeed package or the com.idbs.simpleassessment.poc.test
