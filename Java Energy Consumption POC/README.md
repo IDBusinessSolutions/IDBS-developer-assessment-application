@@ -1,11 +1,12 @@
 # Java Based Assessment Exercise
 
 Energy consumption POC. 
-**Please read Scenario Description.txt**
 
-Download and execute in your IDE 
+Please read ***Scenario Description.txt***
 
-***expected output is...***
+Download code, integrate into you IDE & execute.
+
+expected output is...
 ```
 Calculated energy used at Waterloo Office is: 9.57 Kw     (expected: 9.57 Kw)
 Calculated energy used at Guildford Office is: 209.31 Kw     (expected: 209.31 Kw)
