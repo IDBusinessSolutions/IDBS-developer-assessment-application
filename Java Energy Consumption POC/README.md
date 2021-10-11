@@ -7,11 +7,12 @@ Download and execute in your IDE
 
 ***expected output is...***
 ```
-  Energy Used at GFD-UK Office is: 209.31
-  Energy Used at LND-WTL Office is: 9.57
-  Energy Used at PRT-MN Office is: 371.54
-  Energy Used at ALM-CA Office is: 4651.63
+Calculated energy used at Waterloo Office is: 9.57 Kw     (expected: 9.57 Kw)
+Calculated energy used at Guildford Office is: 209.31 Kw     (expected: 209.31 Kw)
+Calculated energy used at Portland Maine Office is: 387.13 Kw     (expected: 387.13 Kw)
+Calculated energy used at Alemeda California Office is: 4651.63 Kw     (expected: 4651.63 Kw)
 
-  >>>>>>>> PASS: true  <<<<<<<<<<<
+
+TEST PASS: all values as expected
 ```
 
