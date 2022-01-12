@@ -10,15 +10,21 @@ If you **have been invited** to complete the code assessment phase of our softwa
 
 # Getting Started
 
-### Step One - download folder for your selected language
-As discussed in the screening interview, the coding assessment can be completed in various programming languages. Please select your preferred language (as agreed in the screening interview) and download the associated folder to your local environment.
+### Step One
+Download this repository to your local environment - either clone or download a zip of the repo.
 
-***A note on forking:*** it is best NOT to fork the repository. By forking the repo you will create another ***public repo*** that all other candidates can see and use. Sharing your solution in this way is non-ideal for your application process.
+***A note on forking:*** it is best NOT to fork the repository. By forking the repo you will create another ***public repo*** that all other candidates can see and use. This is non-ideal for your application process.
 
-### Step Two - develop your solution
-Please read and follow the instruction in the file *Scenario Description.txt* in your selected language folder. 
+### Step Two - java option
+All instructions on how to develop, integrate and ultimately submit your solution can be found by running the assessment application itself. This can be easily achieved by running the "windows cmd" or "bash sh" command line file found in the downloaded folder ***java-option***. 
 
+Once the application starts, further information on how to develop and integrate your coded solution can be found via the buttons ***Task Details*** and ***Integration Instructions***  at the top of the application's screen (see below). The application initially displays the information from the ***Task Details*** screen.
 
+The application is a standalone application; it does not interact with the "outside world" (internet, your local machine, etc.) in anyway.
+
+Note: you need to have java 8 or greater installed in your environment to run the assessment application.
+
+![enter image description here](images/AssessmentApp.png)
 
 
 
