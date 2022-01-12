@@ -4,7 +4,7 @@ Welcome to the IDBS Developer Assessment Application github repository.
 
 The purpose for this repo is to provide access for ***invited candidates*** to our coding assessment application. 
 
-If you **have been invited** to complete the code assessment phase of our software developer  application process then please continue. If you have **not** been invited, we are sorry but we cannot accept developer assessment solutions from anybody other than those we have invited through our application process. If you are interested in applying to IDBS for a software developer position please visit: 
+If you **have been invited** to complete the code assessment phase of our software developer  application process then please continue. If you have **not** been invited, we are sorry but we cannot accept developer assessment solutions from anybody other than those that have applied and been invited through our job application process. If you are interested in applying to IDBS for a software developer position please visit: 
 
 ### www.idbs.com/careers/
 
