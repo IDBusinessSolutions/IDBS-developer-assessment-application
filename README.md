@@ -1,4 +1,4 @@
-# XIDBS Developer Assessment Application
+# IDBS Developer Assessment Application
 
 Welcome to the IDBS Developer Assessment Application github repository.
 
