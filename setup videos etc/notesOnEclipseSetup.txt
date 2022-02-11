@@ -1,0 +1,45 @@
+0.1) Everything demonstrated is Windows based. If you are using a linux system you'll need to adapt the instructions for linux
+
+0.2) We use github (https://github.com) as the source of the coding assessment exercise and also as the method for YOU to deliver your completed solution to us.
+	- As such we will need a github account. 
+	- If you do not yet have a github account simply setup one up on github - it is free of charge.
+	
+
+1) Getting the Assessment exercise from github (the codebase)
+	- download the application from github
+	- use the MASTER branch of the repo: https://github.com/IDBusinessSolutions/IDBS-developer-assessment-application
+	- either clone the repo OR download the code as a zip file
+	
+	a) To clone the repo:
+		- You'll need gitbash (or similar) installed for this - I have gitbash installed (available from the web) - adds a context menu option in explorer  
+		- in explorer - right click the target folder - open "gitbash here"
+		- in the gitbash command window type: "git clone" <paste the url of the repo copied from github>
+		- The repo is cloned to your machine
+		
+	b) using the zip download option
+		- in github - select Code/download zip
+		- cut&paste the zip to the target folder
+		- extract the zip file (e.g. using 7-zip)
+		
+2) Now you have applications codebase and reference jars files on your machine. You now need to create a JAVA project in eclipse in order to develop your solution. 
+	- This will be the project in which you develop your solution, this is a plain java project.
+	
+	a) The code has been downloaded to your target folder
+	b) There are many ways to create a project in eclipse. We will right-click on the "Working Set" I have called "Student Assessment Space" and select New/Java Project
+	c) Provide a project name of your choice
+	d) MOST IMPORTANTLY deselect the "Use Default Location" checkbox. You need to tell eclipse to load the code from the folder containing the code from github (in the previous step)
+		- deselect the check box
+		- hit browser button and select the folder where you have put the code + reference libraries from github.
+	e) JRE setting: the java runtime environment (version of java) needs to be java 8; this is because the libraries supplied are compiled to java-8. 
+- Ensure java-8 is selected for this project
+- You may experience unusual compilation or runtime issues if you do not use java-8. Having said this if you do not, we are absolutely OK with a more recent version of java.		
+	f) Hit finish and the project should be created.
+	
+3) Now you need to execute the application. The main() for the application (java's "entry" execution point), is located in the reference library: IDBSDeveloperAssessment.jar. To execute the main() method:
+	a) in eclipse's "package explorer" view - expand the project created & expand the reference library "folder"
+	c) right click on the reference library "IDBSDeveloperAssessment" - select Run As/Java Application
+		- this will run the application - the assessment application window will appear in the centre of the screen
+		- behind the scenes it also create a “Run configuration” which can be used to executes the application again and again (via the green “start” icon or the green “debug” icon)
+	d) all instructions on how to begin development are provided within the application itself via the "Task Details" and "Integration Details" button.
+	e) as explained in the instructions your starting for coding purposes is the class "CandidateSolution" found in the package "com.idbs.devassessment.solution" under the "src" folder.
+		- the code supplied is an example, you should use this as a starting point.
