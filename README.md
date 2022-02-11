@@ -16,9 +16,9 @@ Download this repository to your local environment - either clone or download a 
 ***A note on forking:*** it is best NOT to fork the repository. By forking the repo you will create another ***public repo*** that all other candidates can see and use. This is non-ideal for your application process.
 
 ### Step Two - java option
-All instructions on how to develop, integrate and ultimately submit your solution can be found by running the assessment application itself. This can be easily achieved by running the "windows cmd" or "bash sh" command line file found in the downloaded folder ***java-option***. 
+All instructions on how to develop, integrate and ultimately submit your solution can be found by running the assessment application itself. This can be easily achieved by running the "windows cmd" or "bash sh" command line file found in the root directory. 
 
-Once the application starts, further information on how to develop and integrate your coded solution can be found via the buttons ***Task Details*** and ***Integration Instructions***  at the top of the application's screen (see below). The application initially displays the information from the ***Task Details*** screen.
+Once the application starts, further information on how to develop and integrate your solution can be found via the buttons ***Task Details*** and ***Integration Instructions***  at the top of the application's screen (see below).
 
 The application is a standalone application; it does not interact with the "outside world" (internet, your local machine, etc.) in anyway.
 
