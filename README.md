@@ -28,7 +28,7 @@ Note: you need to have java 8 or greater installed in your environment to run th
 
 
 ### non-java option
-For those that have been invited to complete the exercise in a language other than java please jump to this folder in [this folder.](https://github.com/IDBusinessSolutions/IDBS-developer-assessment-application/non-java-option)
+For those that have been invited to complete the exercise in a language other than java please jump to this folder in [this folder.](https://github.com/IDBusinessSolutions/IDBS-developer-assessment-application/tree/master/non-java-option)
 
 
 
