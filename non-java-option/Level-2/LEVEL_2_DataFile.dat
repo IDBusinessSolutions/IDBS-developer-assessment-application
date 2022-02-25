@@ -1,0 +1,500 @@
+{"xValue" : 24,"terms" : [{ "power" : 3,  "multiplier" : 5, "action" :  "subtract"  },{ "power" : 2,  "multiplier" : 6, "action" :  "subtract"  },{ "power" : 0,  "multiplier" : 7, "action" :  "add"  },{ "power" : 1,  "multiplier" : 1, "action" :  "add"  }]}
+expected answer = -72545
+{"xValue" : 39,"terms" : [{ "power" : 3,  "multiplier" : 4, "action" :  "add"  },{ "power" : 2,  "multiplier" : 4, "action" :  "add"  },{ "power" : 4,  "multiplier" : 4, "action" :  "subtract"  },{ "power" : 1,  "multiplier" : 5, "action" :  "add"  },{ "power" : 0,  "multiplier" : 5, "action" :  "add"  }]}
+expected answer = -9010204
+numeric:x = 27; y = -1.x^4+9.x^2-5.x^3+2.x^0-3.x^1
+expected answer = -623374
+numeric:x = 12; y = +0.x^3-3.x^2-3.x^4+2.x^5-7.x^0+9.x^1
+expected answer = 435125
+numeric:x = 34; y = -6.x^1+5.x^5+8.x^2+10.x^3-1.x^0+4.x^4
+expected answer = 232924547
+{"xValue" : 27,"terms" : [{ "power" : 1,  "multiplier" : 8, "action" :  "subtract"  },{ "power" : 6,  "multiplier" : 8, "action" :  "add"  },{ "power" : 3,  "multiplier" : 2, "action" :  "add"  },{ "power" : 7,  "multiplier" : 7, "action" :  "add"  },{ "power" : 0,  "multiplier" : 8, "action" :  "add"  },{ "power" : 4,  "multiplier" : 3, "action" :  "add"  },{ "power" : 2,  "multiplier" : 7, "action" :  "add"  },{ "power" : 5,  "multiplier" : 7, "action" :  "subtract"  }]}
+expected answer = 76223032568
+numeric:x = 44; y = -0.x^1+3.x^3-7.x^5+4.x^2+2.x^4-3.x^0
+expected answer = -1146654083
+{"xValue" : 10,"terms" : [{ "power" : 0,  "multiplier" : 8, "action" :  "add"  },{ "power" : 2,  "multiplier" : 8, "action" :  "add"  },{ "power" : 1,  "multiplier" : 0, "action" :  "subtract"  },{ "power" : 3,  "multiplier" : 10, "action" :  "add"  },{ "power" : 5,  "multiplier" : 7, "action" :  "add"  },{ "power" : 4,  "multiplier" : 8, "action" :  "add"  }]}
+expected answer = 790808
+{"xValue" : 48,"terms" : [{ "power" : 5,  "multiplier" : 0, "action" :  "subtract"  },{ "power" : 2,  "multiplier" : 1, "action" :  "add"  },{ "power" : 0,  "multiplier" : 4, "action" :  "add"  },{ "power" : 4,  "multiplier" : 0, "action" :  "subtract"  },{ "power" : 6,  "multiplier" : 10, "action" :  "subtract"  },{ "power" : 7,  "multiplier" : 5, "action" :  "add"  },{ "power" : 3,  "multiplier" : 2, "action" :  "subtract"  },{ "power" : 1,  "multiplier" : 10, "action" :  "add"  }]}
+expected answer = 2813035588324
+{"xValue" : 45,"terms" : [{ "power" : 1,  "multiplier" : 3, "action" :  "add"  },{ "power" : 2,  "multiplier" : 4, "action" :  "add"  },{ "power" : 4,  "multiplier" : 6, "action" :  "subtract"  },{ "power" : 0,  "multiplier" : 1, "action" :  "add"  },{ "power" : 3,  "multiplier" : 10, "action" :  "add"  }]}
+expected answer = -23684264
+numeric:x = 3; y = -5.x^0+7.x^5-8.x^3+0.x^1+9.x^2-1.x^4
+expected answer = 1480
+numeric:x = 50; y = +8.x^5+9.x^0-1.x^7-10.x^2-8.x^8+4.x^3-6.x^6+5.x^1+3.x^9+4.x^4
+expected answer = 5546002525475259
+{"xValue" : 9,"terms" : [{ "power" : 1,  "multiplier" : 10, "action" :  "subtract"  },{ "power" : 5,  "multiplier" : 0, "action" :  "add"  },{ "power" : 0,  "multiplier" : 2, "action" :  "subtract"  },{ "power" : 4,  "multiplier" : 7, "action" :  "add"  },{ "power" : 3,  "multiplier" : 5, "action" :  "subtract"  },{ "power" : 2,  "multiplier" : 0, "action" :  "add"  }]}
+expected answer = 42190
+numeric:x = 26; y = +10.x^2-10.x^1-2.x^0-10.x^4-10.x^3
+expected answer = -4739022
+{"xValue" : 37,"terms" : [{ "power" : 4,  "multiplier" : 0, "action" :  "subtract"  },{ "power" : 3,  "multiplier" : 2, "action" :  "subtract"  },{ "power" : 2,  "multiplier" : 5, "action" :  "subtract"  },{ "power" : 1,  "multiplier" : 6, "action" :  "add"  },{ "power" : 0,  "multiplier" : 1, "action" :  "subtract"  }]}
+expected answer = -107930
+numeric:x = 40; y = +9.x^0+1.x^4+4.x^6+4.x^5+10.x^1+4.x^3-7.x^2
+expected answer = 16796405209
+numeric:x = 37; y = -9.x^5-5.x^3+6.x^4-4.x^2-2.x^1+2.x^0
+expected answer = -613109460
+numeric:x = 17; y = +8.x^8+8.x^3-9.x^0+6.x^5-9.x^7-0.x^2+4.x^9-1.x^6+0.x^4-10.x^1
+expected answer = 526448938157
+{"xValue" : 49,"terms" : [{ "power" : 0,  "multiplier" : 4, "action" :  "add"  },{ "power" : 3,  "multiplier" : 3, "action" :  "add"  },{ "power" : 5,  "multiplier" : 6, "action" :  "subtract"  },{ "power" : 4,  "multiplier" : 6, "action" :  "subtract"  },{ "power" : 2,  "multiplier" : 8, "action" :  "add"  },{ "power" : 1,  "multiplier" : 7, "action" :  "add"  }]}
+expected answer = -1729067798
+{"xValue" : 33,"terms" : [{ "power" : 4,  "multiplier" : 2, "action" :  "add"  },{ "power" : 6,  "multiplier" : 10, "action" :  "subtract"  },{ "power" : 3,  "multiplier" : 3, "action" :  "add"  },{ "power" : 9,  "multiplier" : 5, "action" :  "add"  },{ "power" : 7,  "multiplier" : 5, "action" :  "subtract"  },{ "power" : 0,  "multiplier" : 6, "action" :  "subtract"  },{ "power" : 8,  "multiplier" : 0, "action" :  "add"  },{ "power" : 5,  "multiplier" : 6, "action" :  "subtract"  },{ "power" : 1,  "multiplier" : 0, "action" :  "add"  },{ "power" : 2,  "multiplier" : 0, "action" :  "add"  }]}
+expected answer = 231831182782479
+{"xValue" : 5,"terms" : [{ "power" : 5,  "multiplier" : 2, "action" :  "add"  },{ "power" : 8,  "multiplier" : 9, "action" :  "subtract"  },{ "power" : 4,  "multiplier" : 7, "action" :  "subtract"  },{ "power" : 3,  "multiplier" : 5, "action" :  "subtract"  },{ "power" : 6,  "multiplier" : 5, "action" :  "subtract"  },{ "power" : 2,  "multiplier" : 10, "action" :  "subtract"  },{ "power" : 0,  "multiplier" : 10, "action" :  "subtract"  },{ "power" : 1,  "multiplier" : 0, "action" :  "add"  },{ "power" : 7,  "multiplier" : 3, "action" :  "add"  }]}
+expected answer = -3358385
+{"xValue" : 47,"terms" : [{ "power" : 6,  "multiplier" : 7, "action" :  "add"  },{ "power" : 4,  "multiplier" : 2, "action" :  "subtract"  },{ "power" : 2,  "multiplier" : 9, "action" :  "subtract"  },{ "power" : 0,  "multiplier" : 3, "action" :  "subtract"  },{ "power" : 1,  "multiplier" : 7, "action" :  "subtract"  },{ "power" : 8,  "multiplier" : 5, "action" :  "add"  },{ "power" : 7,  "multiplier" : 5, "action" :  "subtract"  },{ "power" : 3,  "multiplier" : 5, "action" :  "subtract"  },{ "power" : 5,  "multiplier" : 7, "action" :  "subtract"  }]}
+expected answer = 116597156500054
+{"xValue" : 37,"terms" : [{ "power" : 2,  "multiplier" : 1, "action" :  "subtract"  },{ "power" : 0,  "multiplier" : 9, "action" :  "add"  },{ "power" : 3,  "multiplier" : 7, "action" :  "add"  },{ "power" : 1,  "multiplier" : 3, "action" :  "add"  }]}
+expected answer = 353322
+numeric:x = 43; y = +1.x^2+1.x^3-8.x^4-6.x^5-9.x^6+0.x^0-2.x^1
+expected answer = -57801587237
+numeric:x = 20; y = -2.x^2-9.x^0+2.x^1-0.x^3
+expected answer = -769
+{"xValue" : 8,"terms" : [{ "power" : 8,  "multiplier" : 0, "action" :  "subtract"  },{ "power" : 7,  "multiplier" : 8, "action" :  "subtract"  },{ "power" : 5,  "multiplier" : 5, "action" :  "subtract"  },{ "power" : 0,  "multiplier" : 3, "action" :  "add"  },{ "power" : 1,  "multiplier" : 8, "action" :  "subtract"  },{ "power" : 6,  "multiplier" : 3, "action" :  "add"  },{ "power" : 2,  "multiplier" : 8, "action" :  "subtract"  },{ "power" : 3,  "multiplier" : 0, "action" :  "add"  },{ "power" : 4,  "multiplier" : 7, "action" :  "add"  }]}
+expected answer = -16126525
+{"xValue" : 16,"terms" : [{ "power" : 1,  "multiplier" : 8, "action" :  "add"  },{ "power" : 2,  "multiplier" : 0, "action" :  "add"  },{ "power" : 0,  "multiplier" : 9, "action" :  "subtract"  },{ "power" : 3,  "multiplier" : 7, "action" :  "add"  }]}
+expected answer = 28791
+numeric:x = 39; y = -6.x^6+7.x^7-9.x^5+9.x^3+1.x^1-3.x^4-4.x^0+5.x^2
+expected answer = 938686167584
+{"xValue" : 40,"terms" : [{ "power" : 3,  "multiplier" : 4, "action" :  "subtract"  },{ "power" : 4,  "multiplier" : 7, "action" :  "subtract"  },{ "power" : 2,  "multiplier" : 7, "action" :  "add"  },{ "power" : 1,  "multiplier" : 10, "action" :  "subtract"  },{ "power" : 0,  "multiplier" : 6, "action" :  "subtract"  }]}
+expected answer = -18165206
+numeric:x = 28; y = -9.x^2+1.x^0-4.x^3-9.x^4+1.x^6-1.x^5+6.x^1
+expected answer = 459053337
+numeric:x = 31; y = -0.x^4-9.x^1+9.x^3-10.x^2+3.x^6+9.x^0-1.x^5
+expected answer = 2634140131
+numeric:x = 8; y = -5.x^6-5.x^7+9.x^3-3.x^5-1.x^0+5.x^8-10.x^1+9.x^9+2.x^2+7.x^4
+expected answer = 1279984175
+numeric:x = 35; y = +5.x^3-9.x^2-1.x^1+10.x^4-9.x^0
+expected answer = 15209556
+{"xValue" : 42,"terms" : [{ "power" : 6,  "multiplier" : 4, "action" :  "add"  },{ "power" : 1,  "multiplier" : 9, "action" :  "add"  },{ "power" : 7,  "multiplier" : 0, "action" :  "add"  },{ "power" : 2,  "multiplier" : 8, "action" :  "add"  },{ "power" : 5,  "multiplier" : 2, "action" :  "add"  },{ "power" : 0,  "multiplier" : 2, "action" :  "subtract"  },{ "power" : 4,  "multiplier" : 9, "action" :  "add"  },{ "power" : 3,  "multiplier" : 6, "action" :  "add"  }]}
+expected answer = 22245973720
+numeric:x = 33; y = +10.x^8-10.x^4-0.x^1+7.x^0+8.x^7-1.x^6-8.x^2+2.x^3+10.x^5
+expected answer = 14404121816146
+numeric:x = 19; y = +6.x^2+9.x^3+8.x^0+9.x^1+3.x^4
+expected answer = 455039
+numeric:x = 4; y = -0.x^5-6.x^1-4.x^3-10.x^2+7.x^0-8.x^4
+expected answer = -2481
+numeric:x = 49; y = +7.x^1-6.x^4-7.x^0+2.x^7+0.x^6+1.x^5+4.x^2+10.x^3
+expected answer = 1356695218571
+{"xValue" : 37,"terms" : [{ "power" : 1,  "multiplier" : 1, "action" :  "add"  },{ "power" : 2,  "multiplier" : 6, "action" :  "add"  },{ "power" : 0,  "multiplier" : 5, "action" :  "add"  },{ "power" : 3,  "multiplier" : 8, "action" :  "subtract"  }]}
+expected answer = -396968
+{"xValue" : 36,"terms" : [{ "power" : 1,  "multiplier" : 9, "action" :  "add"  },{ "power" : 3,  "multiplier" : 1, "action" :  "subtract"  },{ "power" : 2,  "multiplier" : 6, "action" :  "add"  },{ "power" : 0,  "multiplier" : 5, "action" :  "subtract"  },{ "power" : 4,  "multiplier" : 7, "action" :  "add"  }]}
+expected answer = 11718751
+numeric:x = 26; y = -3.x^1-5.x^7-4.x^0-6.x^3-6.x^4-4.x^2+1.x^6+6.x^5
+expected answer = -39781696946
+numeric:x = 14; y = +0.x^0+10.x^1+5.x^2+3.x^3-0.x^4
+expected answer = 9352
+numeric:x = 19; y = +6.x^2+4.x^1+6.x^3-10.x^0+3.x^4-1.x^5
+expected answer = -2041750
+numeric:x = 35; y = +3.x^1+10.x^2+4.x^3-0.x^4+4.x^0
+expected answer = 183859
+{"xValue" : 26,"terms" : [{ "power" : 4,  "multiplier" : 5, "action" :  "add"  },{ "power" : 5,  "multiplier" : 8, "action" :  "add"  },{ "power" : 3,  "multiplier" : 4, "action" :  "add"  },{ "power" : 8,  "multiplier" : 9, "action" :  "add"  },{ "power" : 0,  "multiplier" : 1, "action" :  "add"  },{ "power" : 7,  "multiplier" : 4, "action" :  "subtract"  },{ "power" : 6,  "multiplier" : 1, "action" :  "add"  },{ "power" : 2,  "multiplier" : 0, "action" :  "subtract"  },{ "power" : 1,  "multiplier" : 0, "action" :  "add"  }]}
+expected answer = 1847722662449
+{"xValue" : 50,"terms" : [{ "power" : 6,  "multiplier" : 5, "action" :  "add"  },{ "power" : 1,  "multiplier" : 9, "action" :  "add"  },{ "power" : 2,  "multiplier" : 9, "action" :  "subtract"  },{ "power" : 4,  "multiplier" : 5, "action" :  "add"  },{ "power" : 0,  "multiplier" : 6, "action" :  "add"  },{ "power" : 5,  "multiplier" : 10, "action" :  "add"  },{ "power" : 3,  "multiplier" : 10, "action" :  "subtract"  }]}
+expected answer = 81279977956
+numeric:x = 31; y = +9.x^0-3.x^3-3.x^7+1.x^5+8.x^4-9.x^1+4.x^2-2.x^6
+expected answer = -84276918175
+{"xValue" : 45,"terms" : [{ "power" : 2,  "multiplier" : 1, "action" :  "add"  },{ "power" : 7,  "multiplier" : 3, "action" :  "add"  },{ "power" : 1,  "multiplier" : 6, "action" :  "add"  },{ "power" : 5,  "multiplier" : 9, "action" :  "add"  },{ "power" : 8,  "multiplier" : 10, "action" :  "subtract"  },{ "power" : 0,  "multiplier" : 3, "action" :  "subtract"  },{ "power" : 9,  "multiplier" : 1, "action" :  "add"  },{ "power" : 4,  "multiplier" : 2, "action" :  "subtract"  },{ "power" : 6,  "multiplier" : 10, "action" :  "subtract"  },{ "power" : 3,  "multiplier" : 8, "action" :  "subtract"  }]}
+expected answer = 589569011200167
+numeric:x = 13; y = -9.x^0-3.x^6+4.x^2+7.x^5+7.x^3-7.x^4+4.x^1+8.x^7
+expected answer = 489922931
+numeric:x = 46; y = +3.x^6+2.x^2+3.x^5-0.x^1+8.x^7+9.x^3+6.x^8-4.x^4+2.x^0
+expected answer = 123801238399394
+numeric:x = 34; y = +6.x^8+9.x^3-1.x^6-4.x^1-2.x^5+0.x^2+1.x^9-8.x^7-3.x^4-9.x^0
+expected answer = 71009930064007
+numeric:x = 16; y = +6.x^4+6.x^2+1.x^6-6.x^7-3.x^3-6.x^0-4.x^5+7.x^1
+expected answer = -1597647254
+{"xValue" : 9,"terms" : [{ "power" : 2,  "multiplier" : 7, "action" :  "add"  },{ "power" : 1,  "multiplier" : 5, "action" :  "add"  },{ "power" : 4,  "multiplier" : 9, "action" :  "subtract"  },{ "power" : 3,  "multiplier" : 2, "action" :  "subtract"  },{ "power" : 0,  "multiplier" : 0, "action" :  "subtract"  }]}
+expected answer = -59895
+{"xValue" : 8,"terms" : [{ "power" : 0,  "multiplier" : 6, "action" :  "subtract"  },{ "power" : 4,  "multiplier" : 3, "action" :  "add"  },{ "power" : 6,  "multiplier" : 2, "action" :  "add"  },{ "power" : 5,  "multiplier" : 5, "action" :  "add"  },{ "power" : 7,  "multiplier" : 5, "action" :  "subtract"  },{ "power" : 3,  "multiplier" : 0, "action" :  "subtract"  },{ "power" : 1,  "multiplier" : 0, "action" :  "add"  },{ "power" : 2,  "multiplier" : 8, "action" :  "add"  }]}
+expected answer = -9784838
+numeric:x = 3; y = +0.x^6+7.x^2+0.x^3+0.x^9-5.x^0+4.x^4+2.x^7-1.x^5+9.x^8+10.x^1
+expected answer = 63592
+{"xValue" : 48,"terms" : [{ "power" : 6,  "multiplier" : 3, "action" :  "subtract"  },{ "power" : 0,  "multiplier" : 4, "action" :  "add"  },{ "power" : 1,  "multiplier" : 5, "action" :  "subtract"  },{ "power" : 3,  "multiplier" : 4, "action" :  "subtract"  },{ "power" : 4,  "multiplier" : 4, "action" :  "subtract"  },{ "power" : 2,  "multiplier" : 6, "action" :  "subtract"  },{ "power" : 5,  "multiplier" : 2, "action" :  "subtract"  }]}
+expected answer = -37223069420
+{"xValue" : 15,"terms" : [{ "power" : 4,  "multiplier" : 9, "action" :  "add"  },{ "power" : 2,  "multiplier" : 4, "action" :  "subtract"  },{ "power" : 3,  "multiplier" : 9, "action" :  "add"  },{ "power" : 1,  "multiplier" : 5, "action" :  "add"  },{ "power" : 0,  "multiplier" : 8, "action" :  "subtract"  }]}
+expected answer = 485167
+{"xValue" : 2,"terms" : [{ "power" : 1,  "multiplier" : 6, "action" :  "add"  },{ "power" : 0,  "multiplier" : 2, "action" :  "add"  },{ "power" : 3,  "multiplier" : 0, "action" :  "subtract"  },{ "power" : 4,  "multiplier" : 1, "action" :  "add"  },{ "power" : 2,  "multiplier" : 8, "action" :  "add"  }]}
+expected answer = 62
+numeric:x = 44; y = +9.x^4+7.x^1+3.x^2+1.x^0-8.x^9-9.x^5-6.x^3-10.x^7+8.x^8-9.x^6
+expected answer = -4835848463013787
+{"xValue" : 46,"terms" : [{ "power" : 2,  "multiplier" : 10, "action" :  "add"  },{ "power" : 3,  "multiplier" : 9, "action" :  "add"  },{ "power" : 1,  "multiplier" : 4, "action" :  "add"  },{ "power" : 7,  "multiplier" : 4, "action" :  "subtract"  },{ "power" : 6,  "multiplier" : 0, "action" :  "add"  },{ "power" : 8,  "multiplier" : 1, "action" :  "subtract"  },{ "power" : 0,  "multiplier" : 6, "action" :  "subtract"  },{ "power" : 5,  "multiplier" : 5, "action" :  "subtract"  },{ "power" : 4,  "multiplier" : 5, "action" :  "add"  }]}
+expected answer = -21791889391038
+numeric:x = 24; y = -0.x^1+7.x^2+8.x^0+7.x^3
+expected answer = 100808
+{"xValue" : 9,"terms" : [{ "power" : 3,  "multiplier" : 10, "action" :  "subtract"  },{ "power" : 0,  "multiplier" : 3, "action" :  "subtract"  },{ "power" : 4,  "multiplier" : 8, "action" :  "subtract"  },{ "power" : 2,  "multiplier" : 2, "action" :  "add"  },{ "power" : 1,  "multiplier" : 7, "action" :  "subtract"  }]}
+expected answer = -59682
+{"xValue" : 43,"terms" : [{ "power" : 4,  "multiplier" : 3, "action" :  "add"  },{ "power" : 1,  "multiplier" : 9, "action" :  "subtract"  },{ "power" : 8,  "multiplier" : 10, "action" :  "add"  },{ "power" : 0,  "multiplier" : 8, "action" :  "add"  },{ "power" : 5,  "multiplier" : 10, "action" :  "subtract"  },{ "power" : 2,  "multiplier" : 4, "action" :  "add"  },{ "power" : 3,  "multiplier" : 1, "action" :  "add"  },{ "power" : 6,  "multiplier" : 0, "action" :  "add"  },{ "power" : 7,  "multiplier" : 1, "action" :  "add"  },{ "power" : 9,  "multiplier" : 4, "action" :  "add"  }]}
+expected answer = 2127522809392986
+{"xValue" : 39,"terms" : [{ "power" : 7,  "multiplier" : 2, "action" :  "subtract"  },{ "power" : 1,  "multiplier" : 7, "action" :  "add"  },{ "power" : 9,  "multiplier" : 6, "action" :  "subtract"  },{ "power" : 8,  "multiplier" : 0, "action" :  "add"  },{ "power" : 5,  "multiplier" : 6, "action" :  "add"  },{ "power" : 6,  "multiplier" : 2, "action" :  "add"  },{ "power" : 3,  "multiplier" : 5, "action" :  "add"  },{ "power" : 4,  "multiplier" : 10, "action" :  "subtract"  },{ "power" : 2,  "multiplier" : 2, "action" :  "add"  },{ "power" : 0,  "multiplier" : 4, "action" :  "add"  }]}
+expected answer = -1252637072967692
+numeric:x = 29; y = +1.x^1-9.x^2+3.x^3+3.x^0
+expected answer = 65630
+numeric:x = 37; y = +1.x^4+3.x^0+1.x^3-2.x^2+1.x^1
+expected answer = 1922116
+numeric:x = 12; y = -3.x^1-3.x^0-0.x^2+6.x^3
+expected answer = 10329
+numeric:x = 14; y = -6.x^3+0.x^5-9.x^1-1.x^4+2.x^0+3.x^2
+expected answer = -54416
+numeric:x = 4; y = +2.x^7+0.x^6+7.x^2-2.x^3-2.x^0-6.x^1+10.x^4-2.x^5
+expected answer = 33238
+numeric:x = 23; y = -8.x^0+1.x^1-8.x^3+1.x^2
+expected answer = -96792
+{"xValue" : 41,"terms" : [{ "power" : 3,  "multiplier" : 5, "action" :  "add"  },{ "power" : 2,  "multiplier" : 0, "action" :  "subtract"  },{ "power" : 1,  "multiplier" : 8, "action" :  "subtract"  },{ "power" : 0,  "multiplier" : 1, "action" :  "add"  }]}
+expected answer = 344278
+numeric:x = 47; y = -0.x^3-8.x^6+4.x^0+9.x^4-5.x^5-2.x^1+7.x^2
+expected answer = -87336515165
+numeric:x = 12; y = -3.x^5+5.x^3-8.x^2+8.x^4+9.x^0-10.x^1
+expected answer = -573231
+{"xValue" : 50,"terms" : [{ "power" : 5,  "multiplier" : 7, "action" :  "add"  },{ "power" : 0,  "multiplier" : 2, "action" :  "add"  },{ "power" : 2,  "multiplier" : 6, "action" :  "subtract"  },{ "power" : 3,  "multiplier" : 4, "action" :  "add"  },{ "power" : 1,  "multiplier" : 7, "action" :  "subtract"  },{ "power" : 4,  "multiplier" : 2, "action" :  "subtract"  }]}
+expected answer = 2175484652
+numeric:x = 49; y = +0.x^1+8.x^2-7.x^6-4.x^3-5.x^0+8.x^4-0.x^5
+expected answer = -96843343392
+numeric:x = 12; y = +2.x^3+6.x^4-0.x^1-9.x^2-9.x^0
+expected answer = 126567
+numeric:x = 28; y = -1.x^2-9.x^1+7.x^5+9.x^0-1.x^4-9.x^3
+expected answer = 119659325
+{"xValue" : 27,"terms" : [{ "power" : 2,  "multiplier" : 5, "action" :  "subtract"  },{ "power" : 1,  "multiplier" : 2, "action" :  "add"  },{ "power" : 4,  "multiplier" : 4, "action" :  "add"  },{ "power" : 3,  "multiplier" : 2, "action" :  "add"  },{ "power" : 0,  "multiplier" : 3, "action" :  "subtract"  }]}
+expected answer = 2161536
+{"xValue" : 34,"terms" : [{ "power" : 1,  "multiplier" : 9, "action" :  "add"  },{ "power" : 8,  "multiplier" : 0, "action" :  "add"  },{ "power" : 5,  "multiplier" : 3, "action" :  "subtract"  },{ "power" : 9,  "multiplier" : 10, "action" :  "subtract"  },{ "power" : 0,  "multiplier" : 10, "action" :  "add"  },{ "power" : 7,  "multiplier" : 8, "action" :  "subtract"  },{ "power" : 6,  "multiplier" : 2, "action" :  "add"  },{ "power" : 2,  "multiplier" : 10, "action" :  "add"  },{ "power" : 4,  "multiplier" : 8, "action" :  "subtract"  },{ "power" : 3,  "multiplier" : 7, "action" :  "add"  }]}
+expected answer = -607587171566916
+numeric:x = 47; y = -5.x^3-2.x^6+1.x^8-10.x^2+3.x^1+10.x^0-6.x^5-8.x^7+10.x^4
+expected answer = 19735415453113
+{"xValue" : 4,"terms" : [{ "power" : 4,  "multiplier" : 6, "action" :  "subtract"  },{ "power" : 5,  "multiplier" : 4, "action" :  "add"  },{ "power" : 1,  "multiplier" : 3, "action" :  "add"  },{ "power" : 0,  "multiplier" : 4, "action" :  "subtract"  },{ "power" : 2,  "multiplier" : 0, "action" :  "add"  },{ "power" : 3,  "multiplier" : 5, "action" :  "add"  }]}
+expected answer = 2888
+numeric:x = 16; y = -5.x^4-7.x^3+1.x^2-10.x^1-5.x^5-0.x^0
+expected answer = -5599136
+{"xValue" : 30,"terms" : [{ "power" : 5,  "multiplier" : 2, "action" :  "add"  },{ "power" : 1,  "multiplier" : 3, "action" :  "subtract"  },{ "power" : 2,  "multiplier" : 6, "action" :  "add"  },{ "power" : 4,  "multiplier" : 3, "action" :  "subtract"  },{ "power" : 6,  "multiplier" : 7, "action" :  "subtract"  },{ "power" : 0,  "multiplier" : 3, "action" :  "subtract"  },{ "power" : 3,  "multiplier" : 2, "action" :  "add"  }]}
+expected answer = -5056770693
+{"xValue" : 41,"terms" : [{ "power" : 4,  "multiplier" : 1, "action" :  "subtract"  },{ "power" : 7,  "multiplier" : 10, "action" :  "subtract"  },{ "power" : 1,  "multiplier" : 1, "action" :  "add"  },{ "power" : 9,  "multiplier" : 10, "action" :  "add"  },{ "power" : 2,  "multiplier" : 7, "action" :  "subtract"  },{ "power" : 5,  "multiplier" : 9, "action" :  "subtract"  },{ "power" : 8,  "multiplier" : 1, "action" :  "subtract"  },{ "power" : 6,  "multiplier" : 2, "action" :  "add"  },{ "power" : 3,  "multiplier" : 6, "action" :  "add"  },{ "power" : 0,  "multiplier" : 8, "action" :  "subtract"  }]}
+expected answer = 3263895331050383
+{"xValue" : 45,"terms" : [{ "power" : 3,  "multiplier" : 9, "action" :  "subtract"  },{ "power" : 0,  "multiplier" : 8, "action" :  "subtract"  },{ "power" : 1,  "multiplier" : 10, "action" :  "add"  },{ "power" : 2,  "multiplier" : 7, "action" :  "add"  }]}
+expected answer = -805508
+numeric:x = 43; y = +1.x^5-3.x^0-3.x^3+8.x^1+10.x^2+9.x^4
+expected answer = 177557962
+{"xValue" : 40,"terms" : [{ "power" : 3,  "multiplier" : 3, "action" :  "subtract"  },{ "power" : 2,  "multiplier" : 7, "action" :  "add"  },{ "power" : 1,  "multiplier" : 5, "action" :  "add"  },{ "power" : 0,  "multiplier" : 9, "action" :  "subtract"  }]}
+expected answer = -180609
+{"xValue" : 38,"terms" : [{ "power" : 8,  "multiplier" : 1, "action" :  "add"  },{ "power" : 9,  "multiplier" : 9, "action" :  "add"  },{ "power" : 5,  "multiplier" : 7, "action" :  "add"  },{ "power" : 4,  "multiplier" : 5, "action" :  "add"  },{ "power" : 6,  "multiplier" : 3, "action" :  "subtract"  },{ "power" : 2,  "multiplier" : 6, "action" :  "subtract"  },{ "power" : 3,  "multiplier" : 8, "action" :  "subtract"  },{ "power" : 1,  "multiplier" : 4, "action" :  "add"  },{ "power" : 0,  "multiplier" : 10, "action" :  "add"  },{ "power" : 7,  "multiplier" : 1, "action" :  "add"  }]}
+expected answer = 1491398650901946
+{"xValue" : 20,"terms" : [{ "power" : 1,  "multiplier" : 5, "action" :  "subtract"  },{ "power" : 2,  "multiplier" : 9, "action" :  "subtract"  },{ "power" : 3,  "multiplier" : 5, "action" :  "add"  },{ "power" : 0,  "multiplier" : 6, "action" :  "add"  }]}
+expected answer = 36306
+numeric:x = 20; y = +9.x^0-4.x^2-1.x^4-4.x^3-7.x^1
+expected answer = -193731
+{"xValue" : 14,"terms" : [{ "power" : 2,  "multiplier" : 6, "action" :  "add"  },{ "power" : 0,  "multiplier" : 6, "action" :  "add"  },{ "power" : 6,  "multiplier" : 5, "action" :  "subtract"  },{ "power" : 5,  "multiplier" : 9, "action" :  "add"  },{ "power" : 7,  "multiplier" : 4, "action" :  "add"  },{ "power" : 8,  "multiplier" : 3, "action" :  "subtract"  },{ "power" : 3,  "multiplier" : 0, "action" :  "subtract"  },{ "power" : 4,  "multiplier" : 6, "action" :  "add"  },{ "power" : 1,  "multiplier" : 3, "action" :  "subtract"  }]}
+expected answer = -4038288780
+numeric:x = 42; y = +0.x^0-6.x^3+5.x^5+2.x^2+9.x^4+8.x^6-5.x^1
+expected answer = 44593274166
+{"xValue" : 28,"terms" : [{ "power" : 1,  "multiplier" : 7, "action" :  "subtract"  },{ "power" : 5,  "multiplier" : 8, "action" :  "subtract"  },{ "power" : 0,  "multiplier" : 2, "action" :  "subtract"  },{ "power" : 3,  "multiplier" : 6, "action" :  "add"  },{ "power" : 2,  "multiplier" : 2, "action" :  "add"  },{ "power" : 6,  "multiplier" : 3, "action" :  "add"  },{ "power" : 4,  "multiplier" : 10, "action" :  "subtract"  }]}
+expected answer = 1301974490
+{"xValue" : 33,"terms" : [{ "power" : 0,  "multiplier" : 9, "action" :  "subtract"  },{ "power" : 5,  "multiplier" : 10, "action" :  "add"  },{ "power" : 3,  "multiplier" : 10, "action" :  "subtract"  },{ "power" : 1,  "multiplier" : 3, "action" :  "add"  },{ "power" : 2,  "multiplier" : 10, "action" :  "subtract"  },{ "power" : 6,  "multiplier" : 8, "action" :  "add"  },{ "power" : 4,  "multiplier" : 9, "action" :  "subtract"  }]}
+expected answer = 10712054223
+numeric:x = 18; y = +6.x^2-8.x^6-0.x^1-7.x^8-10.x^5-7.x^7+6.x^0-4.x^3+8.x^4
+expected answer = -81715439298
+{"xValue" : 24,"terms" : [{ "power" : 2,  "multiplier" : 1, "action" :  "subtract"  },{ "power" : 0,  "multiplier" : 10, "action" :  "add"  },{ "power" : 4,  "multiplier" : 10, "action" :  "add"  },{ "power" : 1,  "multiplier" : 7, "action" :  "subtract"  },{ "power" : 3,  "multiplier" : 9, "action" :  "subtract"  }]}
+expected answer = 3192610
+numeric:x = 30; y = -5.x^0-9.x^2-5.x^1+3.x^3
+expected answer = 72745
+{"xValue" : 31,"terms" : [{ "power" : 1,  "multiplier" : 7, "action" :  "subtract"  },{ "power" : 6,  "multiplier" : 1, "action" :  "add"  },{ "power" : 5,  "multiplier" : 8, "action" :  "add"  },{ "power" : 2,  "multiplier" : 6, "action" :  "add"  },{ "power" : 0,  "multiplier" : 0, "action" :  "subtract"  },{ "power" : 3,  "multiplier" : 6, "action" :  "subtract"  },{ "power" : 4,  "multiplier" : 1, "action" :  "add"  }]}
+expected answer = 1117287213
+numeric:x = 25; y = +9.x^4+4.x^0-1.x^1-5.x^2+6.x^3
+expected answer = 3606229
+{"xValue" : 33,"terms" : [{ "power" : 1,  "multiplier" : 6, "action" :  "add"  },{ "power" : 0,  "multiplier" : 3, "action" :  "subtract"  },{ "power" : 8,  "multiplier" : 0, "action" :  "add"  },{ "power" : 7,  "multiplier" : 3, "action" :  "subtract"  },{ "power" : 2,  "multiplier" : 4, "action" :  "add"  },{ "power" : 6,  "multiplier" : 10, "action" :  "subtract"  },{ "power" : 3,  "multiplier" : 9, "action" :  "subtract"  },{ "power" : 5,  "multiplier" : 10, "action" :  "add"  },{ "power" : 4,  "multiplier" : 0, "action" :  "subtract"  }]}
+expected answer = -140378973573
+numeric:x = 28; y = -0.x^2-10.x^1+10.x^3+1.x^6-0.x^5-1.x^0+8.x^7-7.x^4+9.x^8
+expected answer = 3508639220071
+numeric:x = 29; y = -1.x^4+1.x^3+1.x^0+1.x^2-4.x^1
+expected answer = -682166
+{"xValue" : 10,"terms" : [{ "power" : 0,  "multiplier" : 7, "action" :  "add"  },{ "power" : 3,  "multiplier" : 5, "action" :  "subtract"  },{ "power" : 4,  "multiplier" : 10, "action" :  "subtract"  },{ "power" : 1,  "multiplier" : 3, "action" :  "add"  },{ "power" : 2,  "multiplier" : 5, "action" :  "subtract"  }]}
+expected answer = -105463
+numeric:x = 29; y = +3.x^0-6.x^4+2.x^3-10.x^1+4.x^2-1.x^5
+expected answer = -24702980
+{"xValue" : 39,"terms" : [{ "power" : 7,  "multiplier" : 6, "action" :  "subtract"  },{ "power" : 2,  "multiplier" : 0, "action" :  "subtract"  },{ "power" : 8,  "multiplier" : 4, "action" :  "add"  },{ "power" : 5,  "multiplier" : 4, "action" :  "subtract"  },{ "power" : 0,  "multiplier" : 2, "action" :  "add"  },{ "power" : 4,  "multiplier" : 5, "action" :  "add"  },{ "power" : 3,  "multiplier" : 2, "action" :  "add"  },{ "power" : 1,  "multiplier" : 6, "action" :  "add"  },{ "power" : 6,  "multiplier" : 4, "action" :  "subtract"  }]}
+expected answer = 20570226816089
+{"xValue" : 37,"terms" : [{ "power" : 2,  "multiplier" : 5, "action" :  "add"  },{ "power" : 4,  "multiplier" : 2, "action" :  "add"  },{ "power" : 1,  "multiplier" : 0, "action" :  "subtract"  },{ "power" : 3,  "multiplier" : 9, "action" :  "subtract"  },{ "power" : 7,  "multiplier" : 4, "action" :  "subtract"  },{ "power" : 5,  "multiplier" : 7, "action" :  "subtract"  },{ "power" : 6,  "multiplier" : 7, "action" :  "add"  },{ "power" : 0,  "multiplier" : 7, "action" :  "add"  }]}
+expected answer = -362249532071
+{"xValue" : 43,"terms" : [{ "power" : 0,  "multiplier" : 3, "action" :  "add"  },{ "power" : 2,  "multiplier" : 10, "action" :  "add"  },{ "power" : 4,  "multiplier" : 8, "action" :  "add"  },{ "power" : 1,  "multiplier" : 0, "action" :  "subtract"  },{ "power" : 3,  "multiplier" : 4, "action" :  "add"  },{ "power" : 5,  "multiplier" : 3, "action" :  "add"  }]}
+expected answer = 468712258
+numeric:x = 38; y = +2.x^5+9.x^3-2.x^0-1.x^4-1.x^2+5.x^6-7.x^7+2.x^1
+expected answer = -785697518546
+numeric:x = 39; y = -8.x^4+1.x^3-0.x^1-0.x^2+8.x^5-2.x^7+4.x^8-6.x^6-10.x^0
+expected answer = 21113165911373
+{"xValue" : 26,"terms" : [{ "power" : 2,  "multiplier" : 4, "action" :  "add"  },{ "power" : 8,  "multiplier" : 6, "action" :  "subtract"  },{ "power" : 6,  "multiplier" : 8, "action" :  "add"  },{ "power" : 7,  "multiplier" : 1, "action" :  "add"  },{ "power" : 4,  "multiplier" : 10, "action" :  "subtract"  },{ "power" : 5,  "multiplier" : 0, "action" :  "add"  },{ "power" : 0,  "multiplier" : 8, "action" :  "subtract"  },{ "power" : 9,  "multiplier" : 1, "action" :  "add"  },{ "power" : 1,  "multiplier" : 9, "action" :  "add"  },{ "power" : 3,  "multiplier" : 0, "action" :  "add"  }]}
+expected answer = 4187039861074
+numeric:x = 9; y = -5.x^4+7.x^7-2.x^5-1.x^3-3.x^1-8.x^0-9.x^6-7.x^2
+expected answer = 28545580
+numeric:x = 47; y = +3.x^1+1.x^0+10.x^5-7.x^6+7.x^3-5.x^4+4.x^2
+expected answer = -73184719899
+numeric:x = 11; y = -7.x^2-3.x^9+10.x^1-8.x^0+9.x^5+9.x^6+10.x^4+0.x^8-2.x^7-10.x^3
+expected answer = -7095291552
+numeric:x = 33; y = -3.x^1-10.x^2-3.x^5+5.x^3-9.x^0+3.x^4
+expected answer = -113679729
+numeric:x = 7; y = +3.x^3+4.x^4+5.x^2+8.x^8+7.x^6+8.x^1-2.x^5-5.x^0+7.x^7
+expected answer = 52684067
+{"xValue" : 33,"terms" : [{ "power" : 3,  "multiplier" : 1, "action" :  "subtract"  },{ "power" : 4,  "multiplier" : 2, "action" :  "subtract"  },{ "power" : 5,  "multiplier" : 1, "action" :  "subtract"  },{ "power" : 2,  "multiplier" : 6, "action" :  "add"  },{ "power" : 0,  "multiplier" : 3, "action" :  "add"  },{ "power" : 1,  "multiplier" : 0, "action" :  "add"  }]}
+expected answer = -41536635
+{"xValue" : 40,"terms" : [{ "power" : 2,  "multiplier" : 7, "action" :  "add"  },{ "power" : 1,  "multiplier" : 7, "action" :  "add"  },{ "power" : 0,  "multiplier" : 4, "action" :  "subtract"  },{ "power" : 3,  "multiplier" : 5, "action" :  "add"  }]}
+expected answer = 331476
+{"xValue" : 7,"terms" : [{ "power" : 1,  "multiplier" : 1, "action" :  "add"  },{ "power" : 3,  "multiplier" : 7, "action" :  "add"  },{ "power" : 2,  "multiplier" : 5, "action" :  "subtract"  },{ "power" : 5,  "multiplier" : 5, "action" :  "add"  },{ "power" : 4,  "multiplier" : 1, "action" :  "subtract"  },{ "power" : 7,  "multiplier" : 8, "action" :  "add"  },{ "power" : 0,  "multiplier" : 7, "action" :  "add"  },{ "power" : 6,  "multiplier" : 2, "action" :  "subtract"  }]}
+expected answer = 6436850
+{"xValue" : 47,"terms" : [{ "power" : 9,  "multiplier" : 1, "action" :  "subtract"  },{ "power" : 5,  "multiplier" : 0, "action" :  "add"  },{ "power" : 8,  "multiplier" : 2, "action" :  "add"  },{ "power" : 6,  "multiplier" : 0, "action" :  "subtract"  },{ "power" : 7,  "multiplier" : 0, "action" :  "subtract"  },{ "power" : 3,  "multiplier" : 5, "action" :  "subtract"  },{ "power" : 2,  "multiplier" : 8, "action" :  "subtract"  },{ "power" : 4,  "multiplier" : 1, "action" :  "add"  },{ "power" : 0,  "multiplier" : 0, "action" :  "add"  },{ "power" : 1,  "multiplier" : 5, "action" :  "add"  }]}
+expected answer = -1071507895436116
+numeric:x = 2; y = -7.x^3-5.x^0+3.x^1+9.x^2
+expected answer = -19
+numeric:x = 49; y = -1.x^7+6.x^8-8.x^3+4.x^9+10.x^0-0.x^5+9.x^6-9.x^2+2.x^1+7.x^4
+expected answer = 6712498362962276
+{"xValue" : 9,"terms" : [{ "power" : 6,  "multiplier" : 1, "action" :  "subtract"  },{ "power" : 3,  "multiplier" : 10, "action" :  "subtract"  },{ "power" : 4,  "multiplier" : 6, "action" :  "add"  },{ "power" : 2,  "multiplier" : 2, "action" :  "subtract"  },{ "power" : 1,  "multiplier" : 10, "action" :  "add"  },{ "power" : 0,  "multiplier" : 7, "action" :  "add"  },{ "power" : 5,  "multiplier" : 2, "action" :  "add"  }]}
+expected answer = -381332
+numeric:x = 41; y = +2.x^2+2.x^1+7.x^0+9.x^3+0.x^4+0.x^5
+expected answer = 623740
+numeric:x = 45; y = +0.x^3+7.x^4-10.x^1-0.x^0-6.x^5-6.x^6+10.x^2
+expected answer = -50901038325
+numeric:x = 19; y = -9.x^3-3.x^0-3.x^5-10.x^4-0.x^6-0.x^2-8.x^1
+expected answer = -8793393
+numeric:x = 32; y = -7.x^3+1.x^5-4.x^0+1.x^4-8.x^6-7.x^2+8.x^1
+expected answer = -8555567876
+numeric:x = 37; y = +3.x^4+1.x^2+2.x^6-9.x^5+8.x^7-4.x^1+8.x^3+3.x^0
+expected answer = 763968403200
+numeric:x = 45; y = -3.x^7-1.x^2-5.x^6+2.x^0-5.x^1+6.x^4-5.x^5+7.x^3
+expected answer = -1163424588748
+{"xValue" : 34,"terms" : [{ "power" : 1,  "multiplier" : 0, "action" :  "add"  },{ "power" : 3,  "multiplier" : 10, "action" :  "add"  },{ "power" : 0,  "multiplier" : 8, "action" :  "add"  },{ "power" : 4,  "multiplier" : 5, "action" :  "add"  },{ "power" : 2,  "multiplier" : 7, "action" :  "subtract"  },{ "power" : 5,  "multiplier" : 10, "action" :  "subtract"  }]}
+expected answer = -447287604
+{"xValue" : 4,"terms" : [{ "power" : 3,  "multiplier" : 5, "action" :  "subtract"  },{ "power" : 5,  "multiplier" : 3, "action" :  "add"  },{ "power" : 7,  "multiplier" : 3, "action" :  "subtract"  },{ "power" : 0,  "multiplier" : 7, "action" :  "add"  },{ "power" : 1,  "multiplier" : 2, "action" :  "add"  },{ "power" : 4,  "multiplier" : 1, "action" :  "subtract"  },{ "power" : 6,  "multiplier" : 3, "action" :  "add"  },{ "power" : 2,  "multiplier" : 1, "action" :  "subtract"  }]}
+expected answer = -34369
+{"xValue" : 9,"terms" : [{ "power" : 0,  "multiplier" : 2, "action" :  "add"  },{ "power" : 8,  "multiplier" : 6, "action" :  "add"  },{ "power" : 9,  "multiplier" : 1, "action" :  "add"  },{ "power" : 7,  "multiplier" : 6, "action" :  "subtract"  },{ "power" : 3,  "multiplier" : 0, "action" :  "subtract"  },{ "power" : 6,  "multiplier" : 7, "action" :  "add"  },{ "power" : 2,  "multiplier" : 1, "action" :  "subtract"  },{ "power" : 4,  "multiplier" : 9, "action" :  "subtract"  },{ "power" : 5,  "multiplier" : 10, "action" :  "subtract"  },{ "power" : 1,  "multiplier" : 9, "action" :  "subtract"  }]}
+expected answer = 620073389
+numeric:x = 6; y = +10.x^6+9.x^9-10.x^5+0.x^4+4.x^2+7.x^3+8.x^0+1.x^1+10.x^7+0.x^8
+expected answer = 93889094
+numeric:x = 35; y = -5.x^0+10.x^5-1.x^6+4.x^2-0.x^4+4.x^1-10.x^3
+expected answer = -1313470590
+{"xValue" : 30,"terms" : [{ "power" : 2,  "multiplier" : 6, "action" :  "subtract"  },{ "power" : 8,  "multiplier" : 4, "action" :  "subtract"  },{ "power" : 7,  "multiplier" : 0, "action" :  "subtract"  },{ "power" : 6,  "multiplier" : 10, "action" :  "subtract"  },{ "power" : 9,  "multiplier" : 1, "action" :  "add"  },{ "power" : 5,  "multiplier" : 5, "action" :  "subtract"  },{ "power" : 1,  "multiplier" : 5, "action" :  "subtract"  },{ "power" : 0,  "multiplier" : 0, "action" :  "add"  },{ "power" : 3,  "multiplier" : 3, "action" :  "subtract"  },{ "power" : 4,  "multiplier" : 5, "action" :  "subtract"  }]}
+expected answer = 17051184363450
+{"xValue" : 13,"terms" : [{ "power" : 3,  "multiplier" : 10, "action" :  "add"  },{ "power" : 2,  "multiplier" : 10, "action" :  "subtract"  },{ "power" : 0,  "multiplier" : 10, "action" :  "subtract"  },{ "power" : 7,  "multiplier" : 2, "action" :  "subtract"  },{ "power" : 6,  "multiplier" : 9, "action" :  "subtract"  },{ "power" : 5,  "multiplier" : 10, "action" :  "add"  },{ "power" : 8,  "multiplier" : 2, "action" :  "subtract"  },{ "power" : 1,  "multiplier" : 1, "action" :  "add"  },{ "power" : 4,  "multiplier" : 6, "action" :  "subtract"  }]}
+expected answer = -1796837910
+numeric:x = 28; y = -3.x^1+8.x^0-8.x^2-9.x^4+8.x^3
+expected answer = -5362636
+numeric:x = 11; y = +3.x^3+5.x^0-5.x^1+3.x^2
+expected answer = 4306
+numeric:x = 44; y = +3.x^0+9.x^5+3.x^1+10.x^3-2.x^2-0.x^6+5.x^4-9.x^7
+expected answer = -2871996452377
+{"xValue" : 24,"terms" : [{ "power" : 3,  "multiplier" : 5, "action" :  "add"  },{ "power" : 5,  "multiplier" : 3, "action" :  "add"  },{ "power" : 2,  "multiplier" : 7, "action" :  "add"  },{ "power" : 4,  "multiplier" : 1, "action" :  "subtract"  },{ "power" : 1,  "multiplier" : 8, "action" :  "add"  },{ "power" : 0,  "multiplier" : 7, "action" :  "add"  },{ "power" : 6,  "multiplier" : 9, "action" :  "add"  }]}
+expected answer = 1743556231
+{"xValue" : 12,"terms" : [{ "power" : 0,  "multiplier" : 5, "action" :  "subtract"  },{ "power" : 4,  "multiplier" : 5, "action" :  "add"  },{ "power" : 3,  "multiplier" : 7, "action" :  "add"  },{ "power" : 6,  "multiplier" : 5, "action" :  "subtract"  },{ "power" : 1,  "multiplier" : 2, "action" :  "subtract"  },{ "power" : 2,  "multiplier" : 10, "action" :  "subtract"  },{ "power" : 5,  "multiplier" : 6, "action" :  "subtract"  }]}
+expected answer = -16308605
+numeric:x = 44; y = +0.x^0+9.x^1-2.x^4-5.x^2-9.x^3
+expected answer = -8272132
+{"xValue" : 2,"terms" : [{ "power" : 0,  "multiplier" : 3, "action" :  "subtract"  },{ "power" : 2,  "multiplier" : 2, "action" :  "add"  },{ "power" : 3,  "multiplier" : 7, "action" :  "add"  },{ "power" : 4,  "multiplier" : 8, "action" :  "subtract"  },{ "power" : 1,  "multiplier" : 5, "action" :  "add"  }]}
+expected answer = -57
+{"xValue" : 11,"terms" : [{ "power" : 3,  "multiplier" : 6, "action" :  "add"  },{ "power" : 5,  "multiplier" : 9, "action" :  "add"  },{ "power" : 0,  "multiplier" : 2, "action" :  "add"  },{ "power" : 6,  "multiplier" : 6, "action" :  "subtract"  },{ "power" : 7,  "multiplier" : 1, "action" :  "add"  },{ "power" : 2,  "multiplier" : 8, "action" :  "subtract"  },{ "power" : 1,  "multiplier" : 5, "action" :  "add"  },{ "power" : 4,  "multiplier" : 0, "action" :  "add"  }]}
+expected answer = 10314339
+{"xValue" : 8,"terms" : [{ "power" : 6,  "multiplier" : 8, "action" :  "add"  },{ "power" : 8,  "multiplier" : 6, "action" :  "subtract"  },{ "power" : 9,  "multiplier" : 0, "action" :  "add"  },{ "power" : 0,  "multiplier" : 9, "action" :  "add"  },{ "power" : 1,  "multiplier" : 6, "action" :  "add"  },{ "power" : 4,  "multiplier" : 4, "action" :  "add"  },{ "power" : 7,  "multiplier" : 6, "action" :  "subtract"  },{ "power" : 5,  "multiplier" : 10, "action" :  "add"  },{ "power" : 2,  "multiplier" : 5, "action" :  "subtract"  },{ "power" : 3,  "multiplier" : 6, "action" :  "add"  }]}
+expected answer = -110802183
+{"xValue" : 43,"terms" : [{ "power" : 0,  "multiplier" : 9, "action" :  "subtract"  },{ "power" : 4,  "multiplier" : 1, "action" :  "subtract"  },{ "power" : 1,  "multiplier" : 7, "action" :  "add"  },{ "power" : 5,  "multiplier" : 7, "action" :  "add"  },{ "power" : 6,  "multiplier" : 3, "action" :  "subtract"  },{ "power" : 3,  "multiplier" : 7, "action" :  "add"  },{ "power" : 2,  "multiplier" : 0, "action" :  "subtract"  }]}
+expected answer = -17937892006
+numeric:x = 33; y = +10.x^3-1.x^5-0.x^1-6.x^2-3.x^4+6.x^0-4.x^6
+expected answer = -5208212190
+numeric:x = 47; y = -10.x^1-6.x^3-7.x^0-3.x^4-2.x^7+8.x^6-5.x^5-9.x^2
+expected answer = -928174525668
+{"xValue" : 40,"terms" : [{ "power" : 3,  "multiplier" : 9, "action" :  "subtract"  },{ "power" : 9,  "multiplier" : 1, "action" :  "subtract"  },{ "power" : 0,  "multiplier" : 7, "action" :  "add"  },{ "power" : 7,  "multiplier" : 8, "action" :  "subtract"  },{ "power" : 2,  "multiplier" : 9, "action" :  "subtract"  },{ "power" : 8,  "multiplier" : 9, "action" :  "subtract"  },{ "power" : 6,  "multiplier" : 3, "action" :  "subtract"  },{ "power" : 4,  "multiplier" : 2, "action" :  "add"  },{ "power" : 5,  "multiplier" : 9, "action" :  "add"  },{ "power" : 1,  "multiplier" : 4, "action" :  "add"  }]}
+expected answer = -322448481870233
+{"xValue" : 18,"terms" : [{ "power" : 2,  "multiplier" : 10, "action" :  "add"  },{ "power" : 3,  "multiplier" : 4, "action" :  "subtract"  },{ "power" : 4,  "multiplier" : 10, "action" :  "add"  },{ "power" : 6,  "multiplier" : 1, "action" :  "add"  },{ "power" : 1,  "multiplier" : 5, "action" :  "subtract"  },{ "power" : 5,  "multiplier" : 2, "action" :  "subtract"  },{ "power" : 0,  "multiplier" : 2, "action" :  "add"  },{ "power" : 7,  "multiplier" : 5, "action" :  "add"  }]}
+expected answer = 3092362832
+numeric:x = 35; y = -1.x^3-5.x^1+1.x^4+7.x^0+2.x^5-9.x^2
+expected answer = 106490307
+{"xValue" : 31,"terms" : [{ "power" : 7,  "multiplier" : 10, "action" :  "subtract"  },{ "power" : 6,  "multiplier" : 8, "action" :  "subtract"  },{ "power" : 4,  "multiplier" : 10, "action" :  "add"  },{ "power" : 3,  "multiplier" : 10, "action" :  "subtract"  },{ "power" : 1,  "multiplier" : 6, "action" :  "add"  },{ "power" : 5,  "multiplier" : 7, "action" :  "add"  },{ "power" : 0,  "multiplier" : 4, "action" :  "add"  },{ "power" : 8,  "multiplier" : 0, "action" :  "add"  },{ "power" : 2,  "multiplier" : 0, "action" :  "add"  }]}
+expected answer = -282016829011
+{"xValue" : 41,"terms" : [{ "power" : 4,  "multiplier" : 0, "action" :  "add"  },{ "power" : 0,  "multiplier" : 9, "action" :  "add"  },{ "power" : 1,  "multiplier" : 8, "action" :  "add"  },{ "power" : 2,  "multiplier" : 6, "action" :  "subtract"  },{ "power" : 3,  "multiplier" : 7, "action" :  "subtract"  },{ "power" : 5,  "multiplier" : 0, "action" :  "subtract"  }]}
+expected answer = -492196
+{"xValue" : 32,"terms" : [{ "power" : 2,  "multiplier" : 0, "action" :  "add"  },{ "power" : 7,  "multiplier" : 6, "action" :  "subtract"  },{ "power" : 9,  "multiplier" : 1, "action" :  "add"  },{ "power" : 5,  "multiplier" : 8, "action" :  "add"  },{ "power" : 1,  "multiplier" : 5, "action" :  "subtract"  },{ "power" : 3,  "multiplier" : 4, "action" :  "add"  },{ "power" : 6,  "multiplier" : 6, "action" :  "subtract"  },{ "power" : 0,  "multiplier" : 9, "action" :  "add"  },{ "power" : 8,  "multiplier" : 2, "action" :  "subtract"  },{ "power" : 4,  "multiplier" : 0, "action" :  "subtract"  }]}
+expected answer = 32773016518505
+numeric:x = 48; y = +8.x^1+7.x^2+1.x^0-2.x^3
+expected answer = -204671
+numeric:x = 45; y = +10.x^6-7.x^8-3.x^0-8.x^4-1.x^3+8.x^5+7.x^1-3.x^7-8.x^2
+expected answer = -118742405124513
+numeric:x = 26; y = -8.x^3-7.x^4+8.x^1+6.x^5+10.x^2-10.x^0
+expected answer = 67955774
+{"xValue" : 34,"terms" : [{ "power" : 7,  "multiplier" : 10, "action" :  "subtract"  },{ "power" : 1,  "multiplier" : 6, "action" :  "subtract"  },{ "power" : 4,  "multiplier" : 3, "action" :  "subtract"  },{ "power" : 8,  "multiplier" : 2, "action" :  "subtract"  },{ "power" : 6,  "multiplier" : 3, "action" :  "add"  },{ "power" : 2,  "multiplier" : 9, "action" :  "subtract"  },{ "power" : 5,  "multiplier" : 5, "action" :  "subtract"  },{ "power" : 0,  "multiplier" : 1, "action" :  "subtract"  },{ "power" : 3,  "multiplier" : 7, "action" :  "add"  }]}
+expected answer = -4092417819593
+numeric:x = 45; y = +3.x^3+10.x^1+0.x^0-5.x^5+9.x^4-0.x^2
+expected answer = -885461175
+numeric:x = 42; y = +7.x^5+10.x^1-9.x^3+6.x^7+2.x^8-7.x^0-2.x^4+3.x^2+2.x^6
+expected answer = 20760426009953
+numeric:x = 24; y = -8.x^0+2.x^3-0.x^2+6.x^1
+expected answer = 27784
+{"xValue" : 6,"terms" : [{ "power" : 5,  "multiplier" : 4, "action" :  "subtract"  },{ "power" : 7,  "multiplier" : 5, "action" :  "subtract"  },{ "power" : 1,  "multiplier" : 2, "action" :  "add"  },{ "power" : 4,  "multiplier" : 8, "action" :  "subtract"  },{ "power" : 3,  "multiplier" : 4, "action" :  "subtract"  },{ "power" : 6,  "multiplier" : 0, "action" :  "add"  },{ "power" : 2,  "multiplier" : 1, "action" :  "subtract"  },{ "power" : 0,  "multiplier" : 3, "action" :  "subtract"  }]}
+expected answer = -1442043
+{"xValue" : 26,"terms" : [{ "power" : 3,  "multiplier" : 0, "action" :  "subtract"  },{ "power" : 1,  "multiplier" : 3, "action" :  "add"  },{ "power" : 0,  "multiplier" : 6, "action" :  "subtract"  },{ "power" : 2,  "multiplier" : 0, "action" :  "subtract"  }]}
+expected answer = 72
+numeric:x = 5; y = -9.x^2-7.x^4-5.x^3+2.x^5+9.x^1+8.x^0
+expected answer = 1078
+{"xValue" : 29,"terms" : [{ "power" : 8,  "multiplier" : 1, "action" :  "add"  },{ "power" : 0,  "multiplier" : 6, "action" :  "subtract"  },{ "power" : 3,  "multiplier" : 4, "action" :  "add"  },{ "power" : 1,  "multiplier" : 0, "action" :  "subtract"  },{ "power" : 5,  "multiplier" : 3, "action" :  "add"  },{ "power" : 9,  "multiplier" : 10, "action" :  "add"  },{ "power" : 6,  "multiplier" : 0, "action" :  "add"  },{ "power" : 7,  "multiplier" : 0, "action" :  "subtract"  },{ "power" : 4,  "multiplier" : 8, "action" :  "add"  },{ "power" : 2,  "multiplier" : 8, "action" :  "add"  }]}
+expected answer = 145571773467624
+numeric:x = 33; y = +9.x^3+8.x^9+8.x^2+5.x^6-0.x^4+6.x^1-9.x^5+0.x^7+6.x^0+8.x^8
+expected answer = 382549249615209
+numeric:x = 39; y = +8.x^3-0.x^1-6.x^0-3.x^2
+expected answer = 469983
+{"xValue" : 34,"terms" : [{ "power" : 4,  "multiplier" : 4, "action" :  "subtract"  },{ "power" : 3,  "multiplier" : 7, "action" :  "subtract"  },{ "power" : 1,  "multiplier" : 3, "action" :  "add"  },{ "power" : 2,  "multiplier" : 1, "action" :  "add"  },{ "power" : 0,  "multiplier" : 10, "action" :  "add"  }]}
+expected answer = -5619204
+numeric:x = 32; y = -9.x^0+10.x^3-7.x^4+3.x^2-10.x^1
+expected answer = -7009609
+{"xValue" : 30,"terms" : [{ "power" : 2,  "multiplier" : 8, "action" :  "add"  },{ "power" : 0,  "multiplier" : 4, "action" :  "subtract"  },{ "power" : 1,  "multiplier" : 3, "action" :  "add"  },{ "power" : 3,  "multiplier" : 9, "action" :  "add"  }]}
+expected answer = 250286
+{"xValue" : 4,"terms" : [{ "power" : 1,  "multiplier" : 2, "action" :  "subtract"  },{ "power" : 4,  "multiplier" : 10, "action" :  "add"  },{ "power" : 2,  "multiplier" : 3, "action" :  "subtract"  },{ "power" : 7,  "multiplier" : 4, "action" :  "add"  },{ "power" : 5,  "multiplier" : 0, "action" :  "add"  },{ "power" : 6,  "multiplier" : 9, "action" :  "add"  },{ "power" : 3,  "multiplier" : 4, "action" :  "add"  },{ "power" : 0,  "multiplier" : 7, "action" :  "add"  }]}
+expected answer = 105167
+numeric:x = 3; y = -4.x^1-1.x^0+2.x^3+2.x^2
+expected answer = 59
+{"xValue" : 26,"terms" : [{ "power" : 3,  "multiplier" : 5, "action" :  "add"  },{ "power" : 4,  "multiplier" : 0, "action" :  "add"  },{ "power" : 0,  "multiplier" : 4, "action" :  "add"  },{ "power" : 5,  "multiplier" : 2, "action" :  "subtract"  },{ "power" : 1,  "multiplier" : 2, "action" :  "add"  },{ "power" : 2,  "multiplier" : 0, "action" :  "subtract"  },{ "power" : 6,  "multiplier" : 2, "action" :  "subtract"  },{ "power" : 7,  "multiplier" : 1, "action" :  "subtract"  }]}
+expected answer = -8673316544
+{"xValue" : 33,"terms" : [{ "power" : 2,  "multiplier" : 9, "action" :  "add"  },{ "power" : 9,  "multiplier" : 7, "action" :  "add"  },{ "power" : 3,  "multiplier" : 7, "action" :  "subtract"  },{ "power" : 1,  "multiplier" : 2, "action" :  "subtract"  },{ "power" : 7,  "multiplier" : 2, "action" :  "add"  },{ "power" : 8,  "multiplier" : 3, "action" :  "subtract"  },{ "power" : 0,  "multiplier" : 3, "action" :  "subtract"  },{ "power" : 5,  "multiplier" : 8, "action" :  "subtract"  },{ "power" : 6,  "multiplier" : 3, "action" :  "add"  },{ "power" : 4,  "multiplier" : 0, "action" :  "subtract"  }]}
+expected answer = 320749962923838
+numeric:x = 34; y = -8.x^5-10.x^2+5.x^1+9.x^0-2.x^4-0.x^3
+expected answer = -366167445
+{"xValue" : 21,"terms" : [{ "power" : 1,  "multiplier" : 10, "action" :  "add"  },{ "power" : 0,  "multiplier" : 2, "action" :  "subtract"  },{ "power" : 2,  "multiplier" : 4, "action" :  "subtract"  },{ "power" : 3,  "multiplier" : 3, "action" :  "add"  },{ "power" : 4,  "multiplier" : 2, "action" :  "add"  }]}
+expected answer = 415189
+{"xValue" : 46,"terms" : [{ "power" : 3,  "multiplier" : 6, "action" :  "subtract"  },{ "power" : 6,  "multiplier" : 0, "action" :  "add"  },{ "power" : 7,  "multiplier" : 6, "action" :  "subtract"  },{ "power" : 2,  "multiplier" : 10, "action" :  "add"  },{ "power" : 1,  "multiplier" : 0, "action" :  "add"  },{ "power" : 5,  "multiplier" : 9, "action" :  "subtract"  },{ "power" : 0,  "multiplier" : 6, "action" :  "add"  },{ "power" : 4,  "multiplier" : 5, "action" :  "add"  }]}
+expected answer = -2616737785650
+{"xValue" : 34,"terms" : [{ "power" : 2,  "multiplier" : 1, "action" :  "add"  },{ "power" : 6,  "multiplier" : 4, "action" :  "add"  },{ "power" : 5,  "multiplier" : 2, "action" :  "subtract"  },{ "power" : 1,  "multiplier" : 8, "action" :  "subtract"  },{ "power" : 3,  "multiplier" : 9, "action" :  "add"  },{ "power" : 4,  "multiplier" : 4, "action" :  "add"  },{ "power" : 0,  "multiplier" : 9, "action" :  "add"  }]}
+expected answer = 6094046789
+{"xValue" : 46,"terms" : [{ "power" : 3,  "multiplier" : 5, "action" :  "add"  },{ "power" : 4,  "multiplier" : 9, "action" :  "subtract"  },{ "power" : 0,  "multiplier" : 5, "action" :  "add"  },{ "power" : 6,  "multiplier" : 8, "action" :  "subtract"  },{ "power" : 7,  "multiplier" : 4, "action" :  "add"  },{ "power" : 5,  "multiplier" : 4, "action" :  "subtract"  },{ "power" : 1,  "multiplier" : 1, "action" :  "add"  },{ "power" : 2,  "multiplier" : 6, "action" :  "subtract"  }]}
+expected answer = 1666612578723
+{"xValue" : 19,"terms" : [{ "power" : 2,  "multiplier" : 5, "action" :  "subtract"  },{ "power" : 1,  "multiplier" : 5, "action" :  "add"  },{ "power" : 4,  "multiplier" : 5, "action" :  "subtract"  },{ "power" : 3,  "multiplier" : 8, "action" :  "add"  },{ "power" : 5,  "multiplier" : 4, "action" :  "subtract"  },{ "power" : 0,  "multiplier" : 10, "action" :  "subtract"  }]}
+expected answer = -10502849
+{"xValue" : 34,"terms" : [{ "power" : 3,  "multiplier" : 8, "action" :  "subtract"  },{ "power" : 1,  "multiplier" : 9, "action" :  "subtract"  },{ "power" : 8,  "multiplier" : 2, "action" :  "add"  },{ "power" : 0,  "multiplier" : 0, "action" :  "subtract"  },{ "power" : 6,  "multiplier" : 8, "action" :  "add"  },{ "power" : 7,  "multiplier" : 7, "action" :  "subtract"  },{ "power" : 2,  "multiplier" : 1, "action" :  "subtract"  },{ "power" : 5,  "multiplier" : 4, "action" :  "subtract"  },{ "power" : 4,  "multiplier" : 3, "action" :  "add"  }]}
+expected answer = 3216104745530
+numeric:x = 21; y = +6.x^3+3.x^0+7.x^5-10.x^1-1.x^4-0.x^2+2.x^6
+expected answer = 199981827
+numeric:x = 3; y = -3.x^4-10.x^1+8.x^5+3.x^7-6.x^2-9.x^0+2.x^3+4.x^6
+expected answer = 11139
+numeric:x = 17; y = +9.x^9-10.x^4+8.x^2+5.x^5-6.x^6+4.x^0-7.x^1+1.x^7+5.x^8+3.x^3
+expected answer = 1102441469948
+numeric:x = 34; y = +8.x^5-1.x^2+2.x^6+8.x^4-1.x^3-3.x^1+10.x^7+6.x^0-9.x^8
+expected answer = -15543447900268
+numeric:x = 41; y = -5.x^3-9.x^2+0.x^0-10.x^5+7.x^1-7.x^4
+expected answer = -1178701784
+{"xValue" : 45,"terms" : [{ "power" : 3,  "multiplier" : 2, "action" :  "add"  },{ "power" : 0,  "multiplier" : 10, "action" :  "subtract"  },{ "power" : 1,  "multiplier" : 5, "action" :  "add"  },{ "power" : 2,  "multiplier" : 6, "action" :  "add"  }]}
+expected answer = 194615
+{"xValue" : 21,"terms" : [{ "power" : 1,  "multiplier" : 9, "action" :  "subtract"  },{ "power" : 7,  "multiplier" : 3, "action" :  "subtract"  },{ "power" : 0,  "multiplier" : 1, "action" :  "subtract"  },{ "power" : 5,  "multiplier" : 10, "action" :  "add"  },{ "power" : 4,  "multiplier" : 9, "action" :  "subtract"  },{ "power" : 8,  "multiplier" : 10, "action" :  "subtract"  },{ "power" : 9,  "multiplier" : 7, "action" :  "subtract"  },{ "power" : 6,  "multiplier" : 2, "action" :  "add"  },{ "power" : 3,  "multiplier" : 7, "action" :  "add"  },{ "power" : 2,  "multiplier" : 5, "action" :  "add"  }]}
+expected answer = -5943381495535
+numeric:x = 27; y = +2.x^5+9.x^3+1.x^0+0.x^2-5.x^6-8.x^4+0.x^1
+expected answer = -1912479011
+{"xValue" : 9,"terms" : [{ "power" : 2,  "multiplier" : 9, "action" :  "add"  },{ "power" : 5,  "multiplier" : 10, "action" :  "add"  },{ "power" : 6,  "multiplier" : 4, "action" :  "subtract"  },{ "power" : 3,  "multiplier" : 10, "action" :  "subtract"  },{ "power" : 4,  "multiplier" : 2, "action" :  "add"  },{ "power" : 0,  "multiplier" : 0, "action" :  "add"  },{ "power" : 1,  "multiplier" : 9, "action" :  "subtract"  }]}
+expected answer = -1528794
+numeric:x = 5; y = +7.x^0-1.x^9+9.x^2-4.x^8-6.x^6+9.x^7-8.x^4+9.x^3-6.x^1+6.x^5
+expected answer = -2891173
+numeric:x = 17; y = -5.x^3+7.x^2-3.x^6+9.x^0+5.x^5-2.x^1+9.x^4
+expected answer = -64584300
+{"xValue" : 6,"terms" : [{ "power" : 4,  "multiplier" : 3, "action" :  "subtract"  },{ "power" : 7,  "multiplier" : 5, "action" :  "subtract"  },{ "power" : 3,  "multiplier" : 2, "action" :  "subtract"  },{ "power" : 0,  "multiplier" : 10, "action" :  "add"  },{ "power" : 6,  "multiplier" : 5, "action" :  "subtract"  },{ "power" : 2,  "multiplier" : 2, "action" :  "add"  },{ "power" : 8,  "multiplier" : 4, "action" :  "add"  },{ "power" : 1,  "multiplier" : 3, "action" :  "subtract"  },{ "power" : 5,  "multiplier" : 3, "action" :  "add"  }]}
+expected answer = 5104576
+numeric:x = 13; y = +0.x^0+10.x^8+1.x^5-5.x^6+5.x^4+3.x^3-3.x^7-4.x^1+8.x^2
+expected answer = 7945449603
+{"xValue" : 16,"terms" : [{ "power" : 4,  "multiplier" : 8, "action" :  "add"  },{ "power" : 2,  "multiplier" : 6, "action" :  "add"  },{ "power" : 8,  "multiplier" : 1, "action" :  "add"  },{ "power" : 0,  "multiplier" : 3, "action" :  "add"  },{ "power" : 9,  "multiplier" : 4, "action" :  "subtract"  },{ "power" : 5,  "multiplier" : 7, "action" :  "subtract"  },{ "power" : 3,  "multiplier" : 2, "action" :  "subtract"  },{ "power" : 6,  "multiplier" : 4, "action" :  "add"  },{ "power" : 1,  "multiplier" : 0, "action" :  "add"  },{ "power" : 7,  "multiplier" : 1, "action" :  "subtract"  }]}
+expected answer = -270791088637
+numeric:x = 19; y = +1.x^5-7.x^4+1.x^7+0.x^8+4.x^6+4.x^3-7.x^1+5.x^0+5.x^9+4.x^2
+expected answer = 1614522136762
+{"xValue" : 32,"terms" : [{ "power" : 1,  "multiplier" : 7, "action" :  "subtract"  },{ "power" : 0,  "multiplier" : 2, "action" :  "add"  },{ "power" : 2,  "multiplier" : 3, "action" :  "subtract"  },{ "power" : 6,  "multiplier" : 2, "action" :  "subtract"  },{ "power" : 5,  "multiplier" : 8, "action" :  "add"  },{ "power" : 4,  "multiplier" : 0, "action" :  "add"  },{ "power" : 3,  "multiplier" : 2, "action" :  "subtract"  }]}
+expected answer = -1879117022
+numeric:x = 16; y = -9.x^1-3.x^5+5.x^3+6.x^0+7.x^6+10.x^2-9.x^4
+expected answer = 113727862
+{"xValue" : 34,"terms" : [{ "power" : 7,  "multiplier" : 8, "action" :  "add"  },{ "power" : 2,  "multiplier" : 2, "action" :  "add"  },{ "power" : 6,  "multiplier" : 10, "action" :  "subtract"  },{ "power" : 0,  "multiplier" : 0, "action" :  "subtract"  },{ "power" : 4,  "multiplier" : 3, "action" :  "add"  },{ "power" : 3,  "multiplier" : 8, "action" :  "subtract"  },{ "power" : 1,  "multiplier" : 5, "action" :  "subtract"  },{ "power" : 5,  "multiplier" : 0, "action" :  "add"  }]}
+expected answer = 404742453710
+{"xValue" : 11,"terms" : [{ "power" : 5,  "multiplier" : 3, "action" :  "subtract"  },{ "power" : 6,  "multiplier" : 8, "action" :  "subtract"  },{ "power" : 3,  "multiplier" : 1, "action" :  "subtract"  },{ "power" : 2,  "multiplier" : 5, "action" :  "add"  },{ "power" : 7,  "multiplier" : 4, "action" :  "subtract"  },{ "power" : 1,  "multiplier" : 3, "action" :  "subtract"  },{ "power" : 4,  "multiplier" : 2, "action" :  "add"  },{ "power" : 0,  "multiplier" : 4, "action" :  "add"  }]}
+expected answer = -92575798
+{"xValue" : 26,"terms" : [{ "power" : 5,  "multiplier" : 6, "action" :  "add"  },{ "power" : 4,  "multiplier" : 9, "action" :  "subtract"  },{ "power" : 0,  "multiplier" : 6, "action" :  "subtract"  },{ "power" : 3,  "multiplier" : 9, "action" :  "subtract"  },{ "power" : 1,  "multiplier" : 10, "action" :  "subtract"  },{ "power" : 2,  "multiplier" : 8, "action" :  "subtract"  }]}
+expected answer = 67011614
+{"xValue" : 27,"terms" : [{ "power" : 3,  "multiplier" : 8, "action" :  "add"  },{ "power" : 0,  "multiplier" : 0, "action" :  "subtract"  },{ "power" : 2,  "multiplier" : 1, "action" :  "subtract"  },{ "power" : 4,  "multiplier" : 9, "action" :  "subtract"  },{ "power" : 1,  "multiplier" : 4, "action" :  "add"  }]}
+expected answer = -4626126
+{"xValue" : 40,"terms" : [{ "power" : 3,  "multiplier" : 1, "action" :  "subtract"  },{ "power" : 5,  "multiplier" : 2, "action" :  "subtract"  },{ "power" : 7,  "multiplier" : 4, "action" :  "add"  },{ "power" : 4,  "multiplier" : 0, "action" :  "subtract"  },{ "power" : 2,  "multiplier" : 1, "action" :  "subtract"  },{ "power" : 6,  "multiplier" : 1, "action" :  "add"  },{ "power" : 8,  "multiplier" : 8, "action" :  "subtract"  },{ "power" : 1,  "multiplier" : 9, "action" :  "add"  },{ "power" : 9,  "multiplier" : 8, "action" :  "subtract"  },{ "power" : 0,  "multiplier" : 2, "action" :  "subtract"  }]}
+expected answer = -2148921548865242
+numeric:x = 20; y = +10.x^2-1.x^0-2.x^3-9.x^1
+expected answer = -12181
+{"xValue" : 43,"terms" : [{ "power" : 3,  "multiplier" : 0, "action" :  "subtract"  },{ "power" : 1,  "multiplier" : 0, "action" :  "subtract"  },{ "power" : 0,  "multiplier" : 6, "action" :  "add"  },{ "power" : 2,  "multiplier" : 10, "action" :  "subtract"  }]}
+expected answer = -18484
+numeric:x = 41; y = +1.x^4-5.x^5+9.x^0-1.x^2-3.x^3-5.x^1
+expected answer = -576663884
+numeric:x = 46; y = +6.x^2-2.x^3+8.x^0-2.x^1-0.x^4+0.x^8-2.x^5+3.x^6-1.x^7+7.x^9
+expected answer = 6454923331808852
+{"xValue" : 15,"terms" : [{ "power" : 1,  "multiplier" : 5, "action" :  "add"  },{ "power" : 3,  "multiplier" : 1, "action" :  "add"  },{ "power" : 2,  "multiplier" : 10, "action" :  "subtract"  },{ "power" : 0,  "multiplier" : 4, "action" :  "subtract"  }]}
+expected answer = 1196
+{"xValue" : 3,"terms" : [{ "power" : 5,  "multiplier" : 6, "action" :  "subtract"  },{ "power" : 4,  "multiplier" : 5, "action" :  "add"  },{ "power" : 2,  "multiplier" : 0, "action" :  "subtract"  },{ "power" : 6,  "multiplier" : 3, "action" :  "add"  },{ "power" : 1,  "multiplier" : 4, "action" :  "subtract"  },{ "power" : 0,  "multiplier" : 4, "action" :  "subtract"  },{ "power" : 3,  "multiplier" : 8, "action" :  "add"  }]}
+expected answer = 1334
+numeric:x = 3; y = +4.x^0-9.x^2+3.x^1+3.x^3
+expected answer = 13
+{"xValue" : 16,"terms" : [{ "power" : 0,  "multiplier" : 0, "action" :  "add"  },{ "power" : 6,  "multiplier" : 4, "action" :  "add"  },{ "power" : 5,  "multiplier" : 6, "action" :  "subtract"  },{ "power" : 4,  "multiplier" : 10, "action" :  "add"  },{ "power" : 2,  "multiplier" : 1, "action" :  "subtract"  },{ "power" : 3,  "multiplier" : 6, "action" :  "subtract"  },{ "power" : 1,  "multiplier" : 6, "action" :  "add"  }]}
+expected answer = 61448032
+{"xValue" : 24,"terms" : [{ "power" : 3,  "multiplier" : 1, "action" :  "add"  },{ "power" : 2,  "multiplier" : 0, "action" :  "add"  },{ "power" : 5,  "multiplier" : 5, "action" :  "add"  },{ "power" : 4,  "multiplier" : 10, "action" :  "subtract"  },{ "power" : 0,  "multiplier" : 0, "action" :  "subtract"  },{ "power" : 1,  "multiplier" : 10, "action" :  "add"  }]}
+expected answer = 36509424
+numeric:x = 6; y = -10.x^3-1.x^1+0.x^5+4.x^6+3.x^0+6.x^2+6.x^4
+expected answer = 192453
+numeric:x = 4; y = -4.x^3-3.x^2+8.x^1+1.x^0+2.x^4+4.x^5
+expected answer = 4337
+{"xValue" : 8,"terms" : [{ "power" : 3,  "multiplier" : 4, "action" :  "add"  },{ "power" : 4,  "multiplier" : 5, "action" :  "add"  },{ "power" : 6,  "multiplier" : 0, "action" :  "add"  },{ "power" : 2,  "multiplier" : 1, "action" :  "add"  },{ "power" : 1,  "multiplier" : 8, "action" :  "subtract"  },{ "power" : 0,  "multiplier" : 0, "action" :  "add"  },{ "power" : 5,  "multiplier" : 8, "action" :  "add"  },{ "power" : 7,  "multiplier" : 9, "action" :  "subtract"  }]}
+expected answer = -18589696
+{"xValue" : 29,"terms" : [{ "power" : 4,  "multiplier" : 0, "action" :  "add"  },{ "power" : 2,  "multiplier" : 8, "action" :  "add"  },{ "power" : 8,  "multiplier" : 1, "action" :  "add"  },{ "power" : 0,  "multiplier" : 9, "action" :  "add"  },{ "power" : 6,  "multiplier" : 0, "action" :  "add"  },{ "power" : 7,  "multiplier" : 4, "action" :  "add"  },{ "power" : 3,  "multiplier" : 4, "action" :  "subtract"  },{ "power" : 1,  "multiplier" : 5, "action" :  "subtract"  },{ "power" : 5,  "multiplier" : 1, "action" :  "subtract"  }]}
+expected answer = 569225316084
+{"xValue" : 18,"terms" : [{ "power" : 1,  "multiplier" : 10, "action" :  "subtract"  },{ "power" : 3,  "multiplier" : 0, "action" :  "add"  },{ "power" : 0,  "multiplier" : 8, "action" :  "add"  },{ "power" : 2,  "multiplier" : 10, "action" :  "subtract"  }]}
+expected answer = -3412
+{"xValue" : 36,"terms" : [{ "power" : 2,  "multiplier" : 6, "action" :  "add"  },{ "power" : 5,  "multiplier" : 8, "action" :  "subtract"  },{ "power" : 0,  "multiplier" : 5, "action" :  "subtract"  },{ "power" : 4,  "multiplier" : 2, "action" :  "add"  },{ "power" : 1,  "multiplier" : 9, "action" :  "add"  },{ "power" : 3,  "multiplier" : 0, "action" :  "subtract"  }]}
+expected answer = -480362081
+numeric:x = 23; y = -3.x^8-9.x^2+8.x^7-8.x^5+5.x^1-3.x^4+3.x^3-8.x^6-7.x^0
+expected answer = -208930937798
+{"xValue" : 18,"terms" : [{ "power" : 4,  "multiplier" : 8, "action" :  "add"  },{ "power" : 3,  "multiplier" : 0, "action" :  "subtract"  },{ "power" : 0,  "multiplier" : 8, "action" :  "add"  },{ "power" : 1,  "multiplier" : 6, "action" :  "add"  },{ "power" : 2,  "multiplier" : 6, "action" :  "add"  }]}
+expected answer = 841868
+{"xValue" : 32,"terms" : [{ "power" : 1,  "multiplier" : 1, "action" :  "add"  },{ "power" : 7,  "multiplier" : 2, "action" :  "subtract"  },{ "power" : 9,  "multiplier" : 5, "action" :  "add"  },{ "power" : 4,  "multiplier" : 3, "action" :  "add"  },{ "power" : 5,  "multiplier" : 3, "action" :  "add"  },{ "power" : 0,  "multiplier" : 6, "action" :  "subtract"  },{ "power" : 3,  "multiplier" : 3, "action" :  "add"  },{ "power" : 8,  "multiplier" : 0, "action" :  "add"  },{ "power" : 6,  "multiplier" : 6, "action" :  "subtract"  },{ "power" : 2,  "multiplier" : 5, "action" :  "add"  }]}
+expected answer = 175846802428954
+numeric:x = 32; y = +8.x^8-10.x^7+10.x^1+7.x^3+9.x^6+8.x^4-4.x^5-5.x^2+9.x^0
+expected answer = 8462033710409
+{"xValue" : 49,"terms" : [{ "power" : 7,  "multiplier" : 7, "action" :  "subtract"  },{ "power" : 2,  "multiplier" : 0, "action" :  "add"  },{ "power" : 3,  "multiplier" : 2, "action" :  "add"  },{ "power" : 0,  "multiplier" : 3, "action" :  "add"  },{ "power" : 4,  "multiplier" : 8, "action" :  "add"  },{ "power" : 6,  "multiplier" : 0, "action" :  "add"  },{ "power" : 1,  "multiplier" : 2, "action" :  "subtract"  },{ "power" : 8,  "multiplier" : 9, "action" :  "subtract"  },{ "power" : 9,  "multiplier" : 8, "action" :  "add"  },{ "power" : 5,  "multiplier" : 8, "action" :  "subtract"  }]}
+expected answer = 12723462633198859
+{"xValue" : 41,"terms" : [{ "power" : 0,  "multiplier" : 3, "action" :  "subtract"  },{ "power" : 2,  "multiplier" : 2, "action" :  "add"  },{ "power" : 3,  "multiplier" : 0, "action" :  "add"  },{ "power" : 6,  "multiplier" : 0, "action" :  "subtract"  },{ "power" : 1,  "multiplier" : 8, "action" :  "subtract"  },{ "power" : 4,  "multiplier" : 1, "action" :  "add"  },{ "power" : 5,  "multiplier" : 10, "action" :  "subtract"  }]}
+expected answer = -1155733218
+{"xValue" : 28,"terms" : [{ "power" : 1,  "multiplier" : 4, "action" :  "subtract"  },{ "power" : 4,  "multiplier" : 6, "action" :  "subtract"  },{ "power" : 3,  "multiplier" : 7, "action" :  "add"  },{ "power" : 5,  "multiplier" : 4, "action" :  "subtract"  },{ "power" : 0,  "multiplier" : 9, "action" :  "add"  },{ "power" : 2,  "multiplier" : 0, "action" :  "add"  }]}
+expected answer = -72375847
+{"xValue" : 21,"terms" : [{ "power" : 2,  "multiplier" : 8, "action" :  "subtract"  },{ "power" : 0,  "multiplier" : 10, "action" :  "add"  },{ "power" : 6,  "multiplier" : 7, "action" :  "subtract"  },{ "power" : 3,  "multiplier" : 1, "action" :  "subtract"  },{ "power" : 1,  "multiplier" : 3, "action" :  "add"  },{ "power" : 4,  "multiplier" : 7, "action" :  "subtract"  },{ "power" : 5,  "multiplier" : 10, "action" :  "subtract"  }]}
+expected answer = -642577940
+numeric:x = 30; y = +9.x^1-5.x^0-5.x^2+5.x^4+0.x^3
+expected answer = 4045765
+{"xValue" : 13,"terms" : [{ "power" : 0,  "multiplier" : 0, "action" :  "subtract"  },{ "power" : 2,  "multiplier" : 0, "action" :  "subtract"  },{ "power" : 3,  "multiplier" : 0, "action" :  "subtract"  },{ "power" : 1,  "multiplier" : 9, "action" :  "subtract"  }]}
+expected answer = -117
+numeric:x = 29; y = +2.x^3+0.x^0+8.x^1+7.x^2
+expected answer = 54897
+numeric:x = 38; y = +4.x^1-8.x^3-9.x^2-3.x^0+0.x^4
+expected answer = -451823
+numeric:x = 15; y = -3.x^0-0.x^3-2.x^2+5.x^1
+expected answer = -378
+{"xValue" : 34,"terms" : [{ "power" : 8,  "multiplier" : 5, "action" :  "add"  },{ "power" : 1,  "multiplier" : 2, "action" :  "add"  },{ "power" : 4,  "multiplier" : 1, "action" :  "add"  },{ "power" : 6,  "multiplier" : 1, "action" :  "subtract"  },{ "power" : 9,  "multiplier" : 6, "action" :  "add"  },{ "power" : 7,  "multiplier" : 7, "action" :  "subtract"  },{ "power" : 2,  "multiplier" : 1, "action" :  "add"  },{ "power" : 5,  "multiplier" : 2, "action" :  "add"  },{ "power" : 3,  "multiplier" : 1, "action" :  "subtract"  },{ "power" : 0,  "multiplier" : 9, "action" :  "subtract"  }]}
+expected answer = 372861810036935
+{"xValue" : 11,"terms" : [{ "power" : 0,  "multiplier" : 7, "action" :  "add"  },{ "power" : 6,  "multiplier" : 2, "action" :  "subtract"  },{ "power" : 3,  "multiplier" : 10, "action" :  "add"  },{ "power" : 5,  "multiplier" : 4, "action" :  "subtract"  },{ "power" : 4,  "multiplier" : 6, "action" :  "add"  },{ "power" : 1,  "multiplier" : 1, "action" :  "subtract"  },{ "power" : 2,  "multiplier" : 1, "action" :  "subtract"  }]}
+expected answer = -4086295
+{"xValue" : 13,"terms" : [{ "power" : 0,  "multiplier" : 3, "action" :  "add"  },{ "power" : 1,  "multiplier" : 7, "action" :  "subtract"  },{ "power" : 3,  "multiplier" : 4, "action" :  "subtract"  },{ "power" : 9,  "multiplier" : 9, "action" :  "subtract"  },{ "power" : 4,  "multiplier" : 4, "action" :  "add"  },{ "power" : 5,  "multiplier" : 4, "action" :  "subtract"  },{ "power" : 2,  "multiplier" : 2, "action" :  "add"  },{ "power" : 6,  "multiplier" : 7, "action" :  "add"  },{ "power" : 7,  "multiplier" : 2, "action" :  "add"  },{ "power" : 8,  "multiplier" : 6, "action" :  "add"  }]}
+expected answer = -90388204800
+numeric:x = 13; y = +3.x^3+6.x^0-4.x^2-10.x^1
+expected answer = 5791
+{"xValue" : 45,"terms" : [{ "power" : 3,  "multiplier" : 0, "action" :  "add"  },{ "power" : 6,  "multiplier" : 6, "action" :  "subtract"  },{ "power" : 1,  "multiplier" : 9, "action" :  "add"  },{ "power" : 0,  "multiplier" : 2, "action" :  "add"  },{ "power" : 7,  "multiplier" : 0, "action" :  "subtract"  },{ "power" : 2,  "multiplier" : 0, "action" :  "add"  },{ "power" : 4,  "multiplier" : 2, "action" :  "subtract"  },{ "power" : 5,  "multiplier" : 1, "action" :  "add"  }]}
+expected answer = -49646266468
+{"xValue" : 21,"terms" : [{ "power" : 4,  "multiplier" : 10, "action" :  "subtract"  },{ "power" : 9,  "multiplier" : 10, "action" :  "subtract"  },{ "power" : 5,  "multiplier" : 0, "action" :  "add"  },{ "power" : 0,  "multiplier" : 9, "action" :  "add"  },{ "power" : 6,  "multiplier" : 5, "action" :  "add"  },{ "power" : 8,  "multiplier" : 6, "action" :  "add"  },{ "power" : 3,  "multiplier" : 3, "action" :  "subtract"  },{ "power" : 1,  "multiplier" : 0, "action" :  "add"  },{ "power" : 7,  "multiplier" : 10, "action" :  "add"  },{ "power" : 2,  "multiplier" : 7, "action" :  "add"  }]}
+expected answer = -7697425563126
+{"xValue" : 15,"terms" : [{ "power" : 2,  "multiplier" : 4, "action" :  "subtract"  },{ "power" : 0,  "multiplier" : 3, "action" :  "subtract"  },{ "power" : 1,  "multiplier" : 4, "action" :  "subtract"  },{ "power" : 3,  "multiplier" : 1, "action" :  "add"  }]}
+expected answer = 2412
+{"xValue" : 38,"terms" : [{ "power" : 3,  "multiplier" : 0, "action" :  "add"  },{ "power" : 2,  "multiplier" : 6, "action" :  "add"  },{ "power" : 1,  "multiplier" : 1, "action" :  "subtract"  },{ "power" : 4,  "multiplier" : 8, "action" :  "subtract"  },{ "power" : 0,  "multiplier" : 8, "action" :  "subtract"  }]}
+expected answer = -16672470
+numeric:x = 14; y = -2.x^0-7.x^3+8.x^4+4.x^2-2.x^1+6.x^6+0.x^5
+expected answer = 45466090
+{"xValue" : 45,"terms" : [{ "power" : 0,  "multiplier" : 4, "action" :  "subtract"  },{ "power" : 3,  "multiplier" : 7, "action" :  "add"  },{ "power" : 1,  "multiplier" : 1, "action" :  "subtract"  },{ "power" : 2,  "multiplier" : 6, "action" :  "add"  },{ "power" : 4,  "multiplier" : 6, "action" :  "add"  }]}
+expected answer = 25253726
+{"xValue" : 17,"terms" : [{ "power" : 4,  "multiplier" : 9, "action" :  "subtract"  },{ "power" : 3,  "multiplier" : 0, "action" :  "subtract"  },{ "power" : 2,  "multiplier" : 1, "action" :  "add"  },{ "power" : 1,  "multiplier" : 7, "action" :  "subtract"  },{ "power" : 0,  "multiplier" : 9, "action" :  "subtract"  }]}
+expected answer = -751528
+{"xValue" : 48,"terms" : [{ "power" : 0,  "multiplier" : 6, "action" :  "subtract"  },{ "power" : 8,  "multiplier" : 7, "action" :  "add"  },{ "power" : 2,  "multiplier" : 7, "action" :  "subtract"  },{ "power" : 1,  "multiplier" : 1, "action" :  "add"  },{ "power" : 6,  "multiplier" : 10, "action" :  "add"  },{ "power" : 3,  "multiplier" : 4, "action" :  "add"  },{ "power" : 7,  "multiplier" : 7, "action" :  "add"  },{ "power" : 4,  "multiplier" : 2, "action" :  "subtract"  },{ "power" : 5,  "multiplier" : 0, "action" :  "subtract"  }]}
+expected answer = 201486737113386
+{"xValue" : 7,"terms" : [{ "power" : 5,  "multiplier" : 7, "action" :  "add"  },{ "power" : 8,  "multiplier" : 9, "action" :  "add"  },{ "power" : 1,  "multiplier" : 9, "action" :  "subtract"  },{ "power" : 7,  "multiplier" : 1, "action" :  "add"  },{ "power" : 2,  "multiplier" : 6, "action" :  "subtract"  },{ "power" : 4,  "multiplier" : 6, "action" :  "subtract"  },{ "power" : 3,  "multiplier" : 0, "action" :  "add"  },{ "power" : 6,  "multiplier" : 4, "action" :  "subtract"  },{ "power" : 0,  "multiplier" : 1, "action" :  "add"  },{ "power" : 9,  "multiplier" : 9, "action" :  "subtract"  }]}
+expected answer = -310843420
+numeric:x = 34; y = +1.x^1+3.x^6+9.x^0-1.x^5-9.x^3+0.x^7-1.x^2+0.x^4
+expected answer = 4588622975
+{"xValue" : 25,"terms" : [{ "power" : 4,  "multiplier" : 8, "action" :  "subtract"  },{ "power" : 3,  "multiplier" : 4, "action" :  "subtract"  },{ "power" : 2,  "multiplier" : 3, "action" :  "subtract"  },{ "power" : 0,  "multiplier" : 9, "action" :  "add"  },{ "power" : 1,  "multiplier" : 8, "action" :  "add"  }]}
+expected answer = -3189166
+{"xValue" : 21,"terms" : [{ "power" : 0,  "multiplier" : 10, "action" :  "subtract"  },{ "power" : 2,  "multiplier" : 8, "action" :  "add"  },{ "power" : 5,  "multiplier" : 10, "action" :  "subtract"  },{ "power" : 3,  "multiplier" : 7, "action" :  "add"  },{ "power" : 1,  "multiplier" : 9, "action" :  "subtract"  },{ "power" : 6,  "multiplier" : 9, "action" :  "add"  },{ "power" : 8,  "multiplier" : 1, "action" :  "subtract"  },{ "power" : 4,  "multiplier" : 4, "action" :  "subtract"  },{ "power" : 7,  "multiplier" : 3, "action" :  "subtract"  }]}
+expected answer = -42495780673
+{"xValue" : 7,"terms" : [{ "power" : 2,  "multiplier" : 10, "action" :  "add"  },{ "power" : 0,  "multiplier" : 10, "action" :  "add"  },{ "power" : 1,  "multiplier" : 0, "action" :  "subtract"  },{ "power" : 4,  "multiplier" : 1, "action" :  "subtract"  },{ "power" : 3,  "multiplier" : 7, "action" :  "add"  }]}
+expected answer = 500
+{"xValue" : 47,"terms" : [{ "power" : 0,  "multiplier" : 8, "action" :  "add"  },{ "power" : 5,  "multiplier" : 3, "action" :  "subtract"  },{ "power" : 1,  "multiplier" : 3, "action" :  "subtract"  },{ "power" : 3,  "multiplier" : 0, "action" :  "subtract"  },{ "power" : 4,  "multiplier" : 6, "action" :  "add"  },{ "power" : 2,  "multiplier" : 6, "action" :  "add"  },{ "power" : 7,  "multiplier" : 8, "action" :  "subtract"  },{ "power" : 6,  "multiplier" : 10, "action" :  "subtract"  }]}
+expected answer = -4161435860808
+{"xValue" : 10,"terms" : [{ "power" : 2,  "multiplier" : 2, "action" :  "add"  },{ "power" : 7,  "multiplier" : 5, "action" :  "subtract"  },{ "power" : 0,  "multiplier" : 3, "action" :  "add"  },{ "power" : 6,  "multiplier" : 3, "action" :  "subtract"  },{ "power" : 3,  "multiplier" : 10, "action" :  "subtract"  },{ "power" : 9,  "multiplier" : 2, "action" :  "add"  },{ "power" : 8,  "multiplier" : 5, "action" :  "add"  },{ "power" : 4,  "multiplier" : 9, "action" :  "add"  },{ "power" : 1,  "multiplier" : 5, "action" :  "add"  },{ "power" : 5,  "multiplier" : 6, "action" :  "add"  }]}
+expected answer = 2447680253
+{"xValue" : 20,"terms" : [{ "power" : 9,  "multiplier" : 6, "action" :  "add"  },{ "power" : 7,  "multiplier" : 7, "action" :  "add"  },{ "power" : 0,  "multiplier" : 1, "action" :  "add"  },{ "power" : 8,  "multiplier" : 0, "action" :  "add"  },{ "power" : 3,  "multiplier" : 8, "action" :  "add"  },{ "power" : 6,  "multiplier" : 2, "action" :  "add"  },{ "power" : 1,  "multiplier" : 1, "action" :  "add"  },{ "power" : 2,  "multiplier" : 10, "action" :  "add"  },{ "power" : 5,  "multiplier" : 7, "action" :  "add"  },{ "power" : 4,  "multiplier" : 5, "action" :  "add"  }]}
+expected answer = 3081111268021
