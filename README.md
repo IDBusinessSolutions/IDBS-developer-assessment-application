@@ -24,7 +24,11 @@ The application is a standalone application; it does not interact with the "outs
 
 Note: you need to have java 8 or greater installed in your environment to run the assessment application.
 
-![enter image description here](images/AssessmentApp.png)
+[text enter image description here](./images/AssessmentApp.png)
+
+
+### non-java option
+For those that have been invited to complete the exercise in a language other than java please jump to this folder in [this folder.](https://github.com/IDBusinessSolutions/IDBS-developer-assessment-application/non-java-option)
 
 
 
