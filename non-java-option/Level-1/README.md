@@ -20,9 +20,9 @@ Then compare your calculated Y-value with the actual expected Y-value provided i
 Repeat for the 100s to 1000s of polynomials provided in the file.
 
 
-# Polynomial Level 1 (detail)
+## Polynomial Level 1 (detail)
 
-## Levels of Difficulty
+### Levels of Difficulty
 There are TWO levels of difficulty for this question (this is for level-1):
  - Level 1 - simplest level&nbsp;&nbsp;&nbsp;(basic input and calculations)
  - Level 2 - medium complexity&nbsp;&nbsp;&nbsp;(level-1 + varied input sources)
@@ -38,7 +38,7 @@ can be at the level of your choice; it should be coded to a production-ready sta
 It should include Unit tests if possible and show case
 your OO-design and OO-programming abilities (or other design/development paradigm).
 
-## Scenario &amp; Rules: Level-1
+### Scenario &amp; Rules: Level-1
 Your objective is to do a mathematical calculation, with a
 coding twist. You need to evaluate multiple polynomial
 equations,&nbsp;i.e.&nbsp;for the polynomial equation provided
@@ -74,7 +74,7 @@ allowed within the code of your solution, but the value should
 not be used as part of an addition or subtraction within the
 polynomial calculation itself.
 
-## Level-1 Specifics:
+### Level-1 Specifics:
 The polynomial will be provided as input data
 in the form of Json as follows, (this json is for the example
 above):
@@ -126,7 +126,7 @@ Once you have all polynomials being calculated correctly AND you are satisfied w
 written (remember production level quality)- **you are ready to submit your solution** - 
 please see *Integration Instructions* below for instructions on submitting your solution.
 
-## What We're Looking For
+### What We're Looking For
 In this assessment exercise we are assessing your design
 and coding skills so your code should be of the highest quality.
 Although it is a "simple" problem you should use design and coding
@@ -142,9 +142,43 @@ which we would like to see submitted along with your solution.
 When writing unit tests you MAY use mathematical operators
 other than ADD and SUBTRACT in your test code.
 
-## Third Party Libraries
+### Third Party Libraries
 Please do not use any third party libraries beyond the standard runtime for your selected language, 
 other than those required to read JSON.
 
 For security reasons we will be unable to accept any solution that uses third-party libraries other 
 than those for Json api.
+
+## Submiting Your Solution
+Your solution should be submitted to us via a ***private github repository.*** 
+Please add our github user **DevAssessmentIDBS** as a collaborator to your 
+repository - this will allow us to access the code in your private repository. 
+
+**Please ensure you include your full name in your submission somewhere,**
+** e.g. in the name of the repo OR in a text file within the repo.**
+
+You should include all the source code you write for
+your solution. If you write any supporting code (e.g. unit test
+code) - please submit this code to us as part of the assessment,
+but without the associated third party libraries (e.g. unit
+testing libraries), we will assess your test code without
+executing it. Once submitted to github, please email the url for
+your repository to us via the email address supplied previously.
+
+
+### Final Comments &amp; Thoughts
+This is a coding assessment exercise and as such it is
+necessarily brief. We are looking for a well-designed solution and
+well written code that is of the highest quality. Do not be
+afraid to "over design" your solution - the idea is to demonstrate
+your design and coding skills rather than produce the shortest,
+simplest solution.
+
+If you have any feedback you wish to share or problems
+getting started with the assessment application, please contact us
+on the email used in our previous communications.
+
+
+
+**Good Luck**
+
