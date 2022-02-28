@@ -7,6 +7,6 @@ The option to submit via a coding lanaguage other than java will have been discu
 If we discussed completing the assessment exercise in a language other than java (python, C++ or C#) please read on for instructions.
 
 ## Instructions
-There are two folder in this section, one for each level of difficulty (Level-1 & Level-2). Each folder has a README.md file providing the detailed instructions for the given level and a data file containing the input data you’ll need to programmatically load into program.
+There are two folder in this section, one for each level of difficulty (Level-1 & Level-2). Each folder has a README.md file providing the detailed instructions for the given level and a data file containing the input data you’ll need to programmatically load into your solution.
 
 There is also a section providing instructions on how to submit your completed exercise (Submission Instructions).
