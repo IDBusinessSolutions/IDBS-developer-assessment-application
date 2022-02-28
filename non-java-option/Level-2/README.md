@@ -1,5 +1,3 @@
-# to be defined
-
 # Overview
 As discussed at interview, this coding assessment was originally designed for java and delivered to candidates via an integrated java application.
 For your solution, IDBS have agreed to accept the assessment in a language other than java - if this was NOT discussed at interview please leave 
