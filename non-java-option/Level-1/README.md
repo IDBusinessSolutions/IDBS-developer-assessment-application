@@ -6,21 +6,21 @@ this section of the repo and return to the top level java section - we will only
 The original java-based application is a cyclic test framework: it generates 100s to 1000s of random data items (each representing a polynomial equation - see below for detail) 
 and one at a time feeds each to the candidate's solution via an integrated "candidate entry-point".
 
-The candidate's solution receives the data (the encoded polynomical), interrprets the data and makes the necessary calculation to solve the polynominial (calulates Y for a given value of X). 
-The Y-value claculated is returned to the application and the framework then tests if the correct answer has been calculted.
+The candidate's solution receives a single data item (the encoded polynomial), interprets the data and makes the necessary calculation to solve the polynomial (calculates the Y-value for a X-value). 
+The Y-value calculated is returned to the application and the framework then tests if the correct answer has been calculated.
 
-In order to provide the same functionaity for non-java solutions a data file has been generated (one for each level of diffculty). 
+In order to provide the same functionality for non-java solutions a data file has been generated (one for each level of difficulty). 
 The data in the file represents 100s to 1000s polynomial equations, each polynomial has two lines of data:
 	 - the first line contains the encoded polynomial data
 	 - the second line contains the expected Y-value when solving the polynomial for the given X-value.
 	 
-You solution should read the data (two lines at a time), interrpet the data from the first line and calculate the **your Y-value** (i.e. solve the equation for the given X-value). 
+You solution should read the data (two lines at a time), interpret the data from the first line and calculate the **your Y-value** (i.e. solve the equation for the given X-value). 
 Then compare your calculated Y-value with the actual expected Y-value provided in the second line of data.
 
 Repeat for the 100s to 1000s of polynomials provided in the file.
 
 
-# Polynomial Level 1
+# Polynomial Level 1 (detail)
 
 ## Levels of Difficulty
 There are TWO levels of difficulty for this question (this is for level-1):
@@ -44,7 +44,9 @@ coding twist. You need to evaluate multiple polynomial
 equations,&nbsp;i.e.&nbsp;for the polynomial equation provided
 you'll calculate the Y-value for a given X-value.
 
-The polynomial will have the following form: y&nbsp;&nbsp;=&nbsp;&nbsp;3x<sup>4</sup>&nbsp;&nbsp;+&nbsp;&nbsp;2x<sup>3</sup>&nbsp;&nbsp;-&nbsp;&nbsp;6x<sup>2</sup>&nbsp;&nbsp;+&nbsp;&nbsp;8x&nbsp;&nbsp;-&nbsp;&nbsp;2
+The polynomial will have the following form: 
+
+<b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;y&nbsp;&nbsp;=&nbsp;&nbsp;3x<sup>4</sup>&nbsp;&nbsp;+&nbsp;&nbsp;2x<sup>3</sup>&nbsp;&nbsp;-&nbsp;&nbsp;6x<sup>2</sup>&nbsp;&nbsp;+&nbsp;&nbsp;8x&nbsp;&nbsp;-&nbsp;&nbsp;2</b>
 
  - the number of terms in the polynomial will not exceed 10 terms
  - the value of the multiplier will not exceed 10
@@ -55,13 +57,13 @@ The polynomial will have the following form: y&nbsp;&nbsp;=&nbsp;&nbsp;3x<sup>4<
 Now here is the coding twist:
 
 					The code that you write to evaluate the equation must
-					ONLY utilise the mathematical operators ADD and SUBTRACT the
-					java operator + and -
+					ONLY utilise the mathematical operators ADD and SUBTRACT 
+					the coding language operator + and -
 
 You **are not allowed** to use mathematical operators such as
-multiplication, division, modulas, "raised to the power of",
+multiplication, division, modulus, "raised to the power of",
 logarithms, base conversions, logical-shift operators or any
-mathematical functions/operators other than the java operators
+mathematical functions/operators other than the operators
 ADD "&nbsp;+&nbsp;" or SUBTRACT "&nbsp;-&nbsp;"&nbsp;. If the code you
 submit uses any method other than simple ADD or SUBTRACT during
 the calculation process the solution will be rejected.
