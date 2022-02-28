@@ -124,7 +124,7 @@ As discussed in the opening section the data for each polynomial is in two parts
 Your solution should calculate the Y-value and then compare this to the expected Y-value from the data file.
 Once you have all polynomials being calculated correctly AND you are satisfied with the quality of code you have
 written (remember production level quality)- **you are ready to submit your solution** - 
-please see *Integration Instructions* below for instructions on submitting your solution.
+please see *Submiting Your Solution* below for instructions on submitting your solution.
 
 ### What We're Looking For
 In this assessment exercise we are assessing your design
