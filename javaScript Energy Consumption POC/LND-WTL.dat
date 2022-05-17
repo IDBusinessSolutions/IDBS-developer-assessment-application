@@ -1,0 +1,8 @@
+# Waterloo office data
+#
+# This header information is optional.... it may or may not be included in data files
+#
+#reading date/time       equipmentId   energyConsumption    timeOn    	
+2459275.224585,             123xyz,       456.79,              56124
+2459255.273459,             789abc,       236.9,               3456 
+2459262.133742,             rt567,        34789.2,             230 

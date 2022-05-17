@@ -1,0 +1,7 @@
+#Portland Main  location data
+# This header information is optional.... it may or may not be included in data files
+#
+# locationId    equipmentId    reading date   reading time           energyConsumption      timeOn         	
+PRT + 123xyz + 7 Jul 2021 + 19:59:00 CDT + 4316.79 + 56124 
+PRT + 789abc + 15 Dec 2022 + 17:45:00 CDT + 6936.9 + 13456 
+PRT + rt567 + 02 Feb 2018 + 10:00:00 CDT + 38789.2 + 25830
