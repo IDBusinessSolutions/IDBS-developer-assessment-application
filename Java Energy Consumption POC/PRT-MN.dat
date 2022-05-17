@@ -1,0 +1,5 @@
+#Portland Main  location data
+#
+equipmentId:123xyz readingDate:7 Jul 2021 readingTime:19:59:00 CDT energyConsumption:5316.79 timeOn:56124 
+equipmentId:789abc readingDate:15 Dec 2022 readingTime:17:45:00 CDT energyConsumption:6936.9 timeOn:13456  
+equipmentId:rt567 readingDate:02 Feb 2018 readingTime:10:00:00 CDT energyConsumption:38789.2 timeOn:25830 
