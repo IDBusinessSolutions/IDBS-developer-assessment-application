@@ -23,6 +23,8 @@ The POC developed for this exercise has the following scenario
  - The POC application can be executed and provides a set of calculated energy usage and a pass/fail result (i.e. it is self-testing)
  - The POC code is NOT at the standard required for a production system.
  - You are tasked with refactoring this code to be closer to production level code
+ - We would like you to start refactoring the method TransformEnergyDataToStandardDataStore_POC.loadDataFromFeed(String dataFeed)
+ 
  
  - PLEASE DO NOT MAKE CODE CHANGES BEFORE THE INTERVIEW...we'd like to work with you during the interview to discuss and make changes
  - DO NOT REFACTOR CLASSES in the com.idbs.simpleassessment.poc.livefeed package or the com.idbs.simpleassessment.poc.test
