@@ -1,5 +1,13 @@
 # Javascript Based Assessment Exercise
 Energy consumption POC. 
+
+Objective of exercise
+ =====================
+ - The POC application can be executed and provides a set of calculated energy usage and a pass/fail result (i.e. it is self-testing)
+ - The POC code is NOT at the standard required for a production system.
+ - You are tasked with refactoring this code to be closer to production level code
+ - We wouild like to you to begin refactoring in the function loadDataFromFeed(feedId)
+
 **Please read Scenario Description.txt**
 
 Download and execute in nodeJS via command:
