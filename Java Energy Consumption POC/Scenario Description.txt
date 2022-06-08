@@ -1,30 +1,45 @@
 The POC developed for this exercise has the following scenario
 ==============================================================
 
+ - THIS IS A FICTIONAL SCENARIO...
  - A large international company has many offices around the world
  - The head office want to monitor and track energy usage within their individual offices
  - They have purchased thousands of small electrical monitoring devices and deployed these to each office around the world.
- - Each device measures the energy usage of an electrical appliance to which it is attached.
- - Electrical usage data is sent from each office to a central system where it is collected and made available for statistical analysis.
+ - Each device measures the energy usage of a single electrical appliance to which it is attached.
+ - Electrical usage data for each appliance is collected at the given office and is then sent from that office to a central system where it is read and made available for statistical analysis.
   
- - The POC we have supplied reads this data for 4 representative offices, Guildford, Waterloo, Portland-Maine & Alameda. 
- - Each office provides data for many devices with the following information provided for each electrical appliance.
+ - The POC we have supplied READS this data for 4 representative offices, Woking, Waterloo, Portland & Alameda. 
+ - Each office provides data for many devices at the location, with the following information provided for each electrical appliance.
 	- Date & Time of the energy reading
 	- Unique Identifier for the electrical appliance 
 	- The energy consumption of the electrical appliance (in watts per hour)
 	- The number of seconds the appliance was switch-on (in seconds)
 	
  - The exact format of the data provided by each office may be different, but the key elements of the data (described above) will remain the same.
- - We have provided four formats but in reality there are likely to be many more formats from other offices.
+ - IMPORTANT: we have provided four example formats but in reality there are likely to be many more formats from other offices.
 
 
  Objective of exercise
  =====================
- - The POC application can be executed and provides a set of calculated energy usage and a pass/fail result (i.e. it is self-testing)
- - The POC code is NOT at the standard required for a production system.
  - You are tasked with refactoring this code to be closer to production level code
+ - The POC code is NOT at the standard required for a production system.
+  
  - We would like you to start refactoring the method TransformEnergyDataToStandardDataStore_POC.loadDataFromFeed(String dataFeed)
- 
- 
+  
  - PLEASE DO NOT MAKE CODE CHANGES BEFORE THE INTERVIEW...we'd like to work with you during the interview to discuss and make changes
  - DO NOT REFACTOR CLASSES in the com.idbs.simpleassessment.poc.livefeed package or the com.idbs.simpleassessment.poc.test
+
+ 
+ When Refactoring
+ ================
+ - The code provided for this exercise can be executed. This execution can be used to test your refactored code.
+ - Execution of the code (and thus the test) is via the main method within the class POC_EntryPoint
+ - If your refactoring changes how the data is read it will fail the test and highlighted in the execution output thus:
+ 
+FAILED TEST  ====== FAILED TEST  ====== FAILED TEST  ====== FAILED TEST  ====== FAILED TEST  ====== 
+FAILED TEST  ======                                                             FAILED TEST  ====== 
+FAILED TEST  ======              some calculated values were not correct        FAILED TEST  ====== 
+FAILED TEST  ======                                                             FAILED TEST  ====== 
+FAILED TEST  ====== FAILED TEST  ====== FAILED TEST  ====== FAILED TEST  ====== FAILED TEST  ====== 
+
+ 
