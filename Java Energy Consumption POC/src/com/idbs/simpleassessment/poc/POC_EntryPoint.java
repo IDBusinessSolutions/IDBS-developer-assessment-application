@@ -25,8 +25,12 @@ public class POC_EntryPoint
             }
             else
             {
-                System.out.println("\n\nFAILED TEST: some calculated values were not correct");
-            }
+                System.out.println("\n");
+                System.out.println("FAILED TEST  ====== FAILED TEST  ====== FAILED TEST  ====== FAILED TEST  ====== FAILED TEST  ====== ");
+                System.out.println("FAILED TEST  ======                                                             FAILED TEST  ====== ");
+                System.out.println("FAILED TEST  ======              some calculated values were not correct        FAILED TEST  ====== ");
+                System.out.println("FAILED TEST  ======                                                             FAILED TEST  ====== ");
+                System.out.println("FAILED TEST  ====== FAILED TEST  ====== FAILED TEST  ====== FAILED TEST  ====== FAILED TEST  ====== ");            }
         }
         catch (Exception e)
         {
