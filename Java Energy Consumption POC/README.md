@@ -5,13 +5,14 @@ Energy consumption POC.
 Objective of exercise
  =====================
  - The POC application can be executed and provides a set of calculated energy usage and a pass/fail result (i.e. it is self-testing)
+ - Execution is via the main method *POC_EntryPoint.main(String[] args)* ... **you should execute this method in your IDE**
  - The POC code is NOT at the standard required for a production system.
  - You are tasked with refactoring this code to be closer to production level code
  - We would like you to start refactoring the method TransformEnergyDataToStandardDataStore_POC.loadDataFromFeed(String dataFeed)
  
 For further information please read ***Scenario Description.txt***
 
-Download code, integrate into you IDE & execute.
+Download code, integrate into you IDE & execute *POC_EntryPoint.main(String[] args)*
 
 expected output is...
 ```
