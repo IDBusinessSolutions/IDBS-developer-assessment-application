@@ -2,20 +2,23 @@ The POC developed for this exercise has the following scenario
 ==============================================================
 
  - THIS IS A FICTIONAL SCENARIO...
+
  - A large international company has many offices around the world
  - The head office want to monitor and track energy usage within their individual offices
  - They have purchased thousands of small electrical monitoring devices and deployed these to each office around the world.
  - Each device measures the energy usage of a single electrical appliance to which it is attached.
  - Electrical usage data for each appliance is collected at the given office and is then sent from that office to a central system where it is read and made available for statistical analysis.
   
- - The POC we have supplied READS this data for 4 representative offices, Woking, Waterloo, Portland & Alameda. 
- - Each office provides data for many devices at the location, with the following information provided for each electrical appliance.
+ - The POC we have supplied is an implementation of the statistical analysis component of this scenario.
+ - It READS data for 4 representative offices, Guildford, Waterloo, Portland & Alameda. 
+ - Each office provides data for many devices at their specific location, with the following information provided for each electrical appliance.
 	- Date & Time of the energy reading
 	- Unique Identifier for the electrical appliance 
 	- The energy consumption of the electrical appliance (in watts per hour)
 	- The number of seconds the appliance was switch-on (in seconds)
 	
- - The exact format of the data provided by each office may be different, but the key elements of the data (described above) will remain the same.
+ - The key elements of the data (described above) will remain the same for all offices, however the exact format of the data provided by each office will be different 
+ - This is because the local office's feed-driver determins the exact format - the statical analysis POC has no control over this.
  - IMPORTANT: we have provided four example formats but in reality there are likely to be many more formats from other offices.
 
 
