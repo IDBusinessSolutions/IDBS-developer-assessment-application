@@ -58,10 +58,11 @@ public class TransformEnergyDataToStandardDataStore_POC
 
         if (dataFeed.startsWith(GUILDFORD_FEED_ID))
         {
-            // get the POC test data for the feed
-            String rawData = LiveFeedMicroService_POC.readDataFromLiveFeed(GUILDFORD_FEED_ID);
+            // load raw data from locatin's feed. NOTE: format will be specific to location BUT contains same data
+            LiveFeedMicroService_POC liveFeed = LiveFeedMicroService_POC.getFeedFor(GUILDFORD_FEED_ID);
+            String rawData = liveFeed.readData();
 
-            String[] rawDataArray = rawData.split("//");
+            String[] rawDataArray = rawData.split(":::");
 
             for (String s : rawDataArray)
             {
@@ -72,8 +73,7 @@ public class TransformEnergyDataToStandardDataStore_POC
                 String equipmentId = s.substring(63).trim();
 
                 // now put the data into the datastore...
-                String dataString = equipmentId + "," + energyConsumption + "," + timeSwitchedOn + "," + date;
-                saveToDataStore(GUILDFORD_FEED_ID, dataString);
+                saveToDataStore(GUILDFORD_FEED_ID, equipmentId, energyConsumption, timeSwitchedOn, date);
             }
 
             return;
@@ -82,10 +82,11 @@ public class TransformEnergyDataToStandardDataStore_POC
 
         if (dataFeed.startsWith(LONDON_WATERLOO_FEED_ID))
         {
-            // get the POC test data for the feed
-            String rawData = LiveFeedMicroService_POC.readDataFromLiveFeed(LONDON_WATERLOO_FEED_ID);
+            // load raw data from locatin's feed. NOTE: format will be specific to location BUT contains same data
+            LiveFeedMicroService_POC liveFeed = LiveFeedMicroService_POC.getFeedFor(LONDON_WATERLOO_FEED_ID);
+            String rawData = liveFeed.readData();
 
-            String[] rawDataArray = rawData.split("//");
+            String[] rawDataArray = rawData.split("DATA_END");
 
             for (String wd : rawDataArray)
             {
@@ -98,43 +99,36 @@ public class TransformEnergyDataToStandardDataStore_POC
                 int timeSwitchedOn = Integer.parseInt(wdArray[3].trim());
 
                 // now put the data into the datastore...
-                String dataString = equipmentId + "," + energyConsumption + "," + timeSwitchedOn + "," + date;
-                saveToDataStore(LONDON_WATERLOO_FEED_ID, dataString);
+                saveToDataStore(LONDON_WATERLOO_FEED_ID, equipmentId, energyConsumption, timeSwitchedOn, date);
             }
 
             return;
         }
 
-
         if (dataFeed.startsWith(PORTLAND_MAINE_FEED_ID))
         {
-            // get the POC test data for the feed
-            String rawData = LiveFeedMicroService_POC.readDataFromLiveFeed(PORTLAND_MAINE_FEED_ID);
+            // load raw data from locatin's feed. NOTE: format will be specific to location BUT contains same data
+            LiveFeedMicroService_POC liveFeed = LiveFeedMicroService_POC.getFeedFor(PORTLAND_MAINE_FEED_ID);
+            String rawData = liveFeed.readData();
 
-            String[] rawDataArray = rawData.split("//");
+            String[] rawDataArray = rawData.split("<>");
 
             for (String wd : rawDataArray)
             {
-                String equipmentIdVal = wd.substring(wd.indexOf("equipmentId:") + "equipmentId:".length(),
-                    wd.indexOf("readingDate")).trim();
+                String equipmentId = wd.substring(wd.indexOf("equipmentId:") + "equipmentId:".length(), wd.indexOf("readingDate")).trim();
 
-                String d1 = wd.substring(wd.indexOf("readingDate:") + "readingDate:".length(),
-                    wd.indexOf("readingTime"));
-                String d2 = wd.substring(wd.indexOf("readingTime:") + "readingTime:".length(),
-                    wd.indexOf("energyConsumption"));
-                Date dateVal = new Date(d1.trim() + " " + d2.trim());
+                String d1 = wd.substring(wd.indexOf("readingDate:") + "readingDate:".length(), wd.indexOf("readingTime"));
+                String d2 = wd.substring(wd.indexOf("readingTime:") + "readingTime:".length(), wd.indexOf("energyConsumption"));
+                Date date = new Date(d1.trim() + " " + d2.trim());
 
-                String energyConsumptionStr = wd.substring(
-                    wd.indexOf("energyConsumption:") + "energyConsumption:".length(), wd.indexOf("timeOn"));
-                float energyConsumptionVal = Float.parseFloat(energyConsumptionStr.trim());
+                String energyConsumptionStr = wd.substring(wd.indexOf("energyConsumption:") + "energyConsumption:".length(), wd.indexOf("timeOn"));
+                float energyConsumption = Float.parseFloat(energyConsumptionStr.trim());
 
                 String timeSwitchedOnStr = wd.substring(wd.indexOf("timeOn:") + "timeOn:".length());
-                int timeSwitchedOnVal = Integer.parseInt(timeSwitchedOnStr.trim());
+                int timeSwitchedOn = Integer.parseInt(timeSwitchedOnStr.trim());
 
                 // now put the data into the datastore...
-                String dataString = equipmentIdVal + "," + energyConsumptionVal + "," + timeSwitchedOnVal + ","
-                    + dateVal;
-                saveToDataStore(PORTLAND_MAINE_FEED_ID, dataString);
+                saveToDataStore(PORTLAND_MAINE_FEED_ID, equipmentId, energyConsumption, timeSwitchedOn, date);
             }
 
             return;
@@ -142,8 +136,9 @@ public class TransformEnergyDataToStandardDataStore_POC
 
         if (dataFeed.startsWith(ALAMEDA_CALIFORNIA_FEED_ID))
         {
-            // get the POC test data for the feed
-            String rawData = LiveFeedMicroService_POC.readDataFromLiveFeed(ALAMEDA_CALIFORNIA_FEED_ID);
+            // load raw data from locatin's feed. NOTE: format will be specific to location BUT contains same data
+            LiveFeedMicroService_POC liveFeed = LiveFeedMicroService_POC.getFeedFor(ALAMEDA_CALIFORNIA_FEED_ID);
+            String rawData = liveFeed.readData();
 
             rawData = rawData.replaceAll("\t", "");
             rawData = rawData.substring(rawData.indexOf("[") + 1, rawData.indexOf("]"));
@@ -157,8 +152,7 @@ public class TransformEnergyDataToStandardDataStore_POC
                 float energyConsumption = Float.parseFloat(alamedaData[2].trim());
                 int timeSwitchedOn = Integer.parseInt(alamedaData[3].trim());
 
-                String dataString = equipmentId + "," + energyConsumption + "," + timeSwitchedOn + "," + date;
-                saveToDataStore(ALAMEDA_CALIFORNIA_FEED_ID, dataString);
+                saveToDataStore(ALAMEDA_CALIFORNIA_FEED_ID, equipmentId, energyConsumption, timeSwitchedOn, date);
             }
             return;
         }
@@ -199,11 +193,13 @@ public class TransformEnergyDataToStandardDataStore_POC
         return retVal;
     }
 
-    private void saveToDataStore(String locationKey, String data)
+    private void saveToDataStore(String locationKey, String equipmentId, float energyConsumption, long timeSwitchedOn, Date date)
     {
+        String dataString = equipmentId + "," + energyConsumption + "," + timeSwitchedOn + "," + date;
+
         List<String> record = retrieveLocationRecord(locationKey);
 
-        record.add(data);
+        record.add(dataString);
         this.energyData.put(locationKey, record);
     }
 
