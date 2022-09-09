@@ -6,9 +6,9 @@ package com.idbs.simpleassessment.poc.test;
 
 import java.text.DecimalFormat;
 
-import com.idbs.simpleassessment.poc.TransformEnergyDataToStandardDataStore_POC;
+import com.idbs.simpleassessment.poc.EnergyDataManager;
 
-import static com.idbs.simpleassessment.poc.TransformEnergyDataToStandardDataStore_POC.*;
+import static com.idbs.simpleassessment.poc.EnergyDataManager.*;
 
 /**
  * 
@@ -18,19 +18,17 @@ public class TestPoc
 {
     public boolean testThatCalculatedValuesForEachOfficeAreCorrect()
     {
-        TransformEnergyDataToStandardDataStore_POC poc = new TransformEnergyDataToStandardDataStore_POC();
+        EnergyDataManager poc = new EnergyDataManager();
 
         try
         {
-            poc.loadEngeryConsumptionData();
-
             double test01EnergyUsed = poc.calculateLocationEnergyConsumption(LONDON_WATERLOO_FEED_ID);
             String test01Str = new DecimalFormat("#0.00").format(test01EnergyUsed / 1000);
             System.out.println("Calculated energy used at Waterloo Office is: " + test01Str + " Kw     (expected: 9.57 Kw)");
 
-            double test02EnergyUsed = poc.calculateLocationEnergyConsumption(GUILDFORD_FEED_ID);
+            double test02EnergyUsed = poc.calculateLocationEnergyConsumption(WOKING_FEED_ID);
             String test02Str = new DecimalFormat("#0.00").format(test02EnergyUsed / 1000);
-            System.out.println("Calculated energy used at Guildford Office is: " + test02Str + " Kw     (expected: 209.31 Kw)");
+            System.out.println("Calculated energy used at Woking Office is: " + test02Str + " Kw     (expected: 209.31 Kw)");
 
             double test03EnergyUsed = poc.calculateLocationEnergyConsumption(PORTLAND_MAINE_FEED_ID);
             String test03Str = new DecimalFormat("#0.00").format(test03EnergyUsed / 1000);
