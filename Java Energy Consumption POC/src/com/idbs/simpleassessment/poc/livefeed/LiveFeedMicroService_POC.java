@@ -1,18 +1,15 @@
 package com.idbs.simpleassessment.poc.livefeed;
 
-import static com.idbs.simpleassessment.poc.TransformEnergyDataToStandardDataStore_POC.*;
+import static com.idbs.simpleassessment.poc.EnergyDataManager.ALAMEDA_CALIFORNIA_FEED_ID;
+import static com.idbs.simpleassessment.poc.EnergyDataManager.WOKING_FEED_ID;
+import static com.idbs.simpleassessment.poc.EnergyDataManager.LONDON_WATERLOO_FEED_ID;
+import static com.idbs.simpleassessment.poc.EnergyDataManager.PORTLAND_MAINE_FEED_ID;
 
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
-import java.net.URL;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
 
 /**
  * DO NOT REFACTOR THIS CLASS
@@ -69,6 +66,7 @@ public class LiveFeedMicroService_POC
 
             retVal = stringBuilder.toString();
         }
+        
         return retVal;
     }
 
@@ -80,9 +78,9 @@ public class LiveFeedMicroService_POC
         {
             retVal = new File(LONDON_WATERLOO_FEED_ID + ".dat");
         }
-        else if (feedId.equals(GUILDFORD_FEED_ID))
+        else if (feedId.equals(WOKING_FEED_ID))
         {
-            retVal = new File(GUILDFORD_FEED_ID + ".dat");
+            retVal = new File(WOKING_FEED_ID + ".dat");
         }
         else if (feedId.equals(PORTLAND_MAINE_FEED_ID))
         {
