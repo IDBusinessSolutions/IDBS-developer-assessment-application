@@ -4,13 +4,13 @@ The POC developed for this exercise has the following scenario
  - THIS IS A FICTIONAL SCENARIO...
 
  - A large international company has many offices around the world
- - The head office want to monitor and track energy usage within their individual offices
+ - Because of the energy crisis the head office want to monitor and track energy usage within their individual offices
  - They have purchased thousands of small electrical monitoring devices and deployed these to each office around the world.
  - Each device measures the energy usage of a single electrical appliance to which it is attached.
  - Electrical usage data for each appliance is collected at the given office and is then sent from that office to a central system where it is read and made available for statistical analysis.
   
- - The POC we have supplied is an implementation of the statistical analysis component of this scenario.
- - It READS data for 4 representative offices, Guildford, Waterloo, Portland & Alameda. 
+ - The POC we have supplied is an implementation of the centralised statistical analysis component of this scenario.
+ - It READS data for 2 representative offices, Woking & Waterloo. 
  - Each office provides data for many devices at their specific location, with the following information provided for each electrical appliance.
 	- Date & Time of the energy reading
 	- Unique Identifier for the electrical appliance 
@@ -18,16 +18,18 @@ The POC developed for this exercise has the following scenario
 	- The number of seconds the appliance was switch-on (in seconds)
 	
  - The key elements of the data (described above) will remain the same for all offices, however the exact format of the data provided by each office will be different 
- - This is because the local office's feed-driver determins the exact format - the statical analysis POC has no control over this.
- - IMPORTANT: we have provided four example formats but in reality there are likely to be many more formats from other offices.
+ - This is because the local office's feed-driver determines the exact format - the statistical analysis POC has no control over this.
+ - IMPORTANT: for simplicity we have provided only TWO example formats, but in reality there WILL BE many more formats from other offices.
 
 
  Objective of exercise
  =====================
- - You are tasked with refactoring this code to be closer to production level code
- - The POC code is NOT at the standard required for a production system.
+ - You are tasked with refactoring this code.
+ - The POC code is NOT at the standard required for a production system, you need to refactor it to PRODUCTION QUALITY.
+ - You changes should improve the overall quality and design of the code.
   
- - We would like you to start refactoring the method TransformEnergyDataToStandardDataStore_POC.loadDataFromFeed(String dataFeed)
+ - We would like you to start your refactoring in the method EnergyDataManager.loadDataFromFeed(String dataFeed)
+ - You are free to makes as many code changes as you wish including adding new classes if you wish. 
   
  - PLEASE DO NOT MAKE CODE CHANGES BEFORE THE INTERVIEW...we'd like to work with you during the interview to discuss and make changes
  - DO NOT REFACTOR CLASSES in the com.idbs.simpleassessment.poc.livefeed package or the com.idbs.simpleassessment.poc.test
@@ -37,7 +39,7 @@ The POC developed for this exercise has the following scenario
  ================
  - The code provided for this exercise can be executed. This execution can be used to test your refactored code.
  - Execution of the code (and thus the test) is via the main method within the class POC_EntryPoint
- - If your refactoring changes how the data is read it will fail the test and highlighted in the execution output thus:
+ - If your refactoring modifies the behaviour of the code the execution will fail - this will be highlighted in the execution output thus:
  
 FAILED TEST  ====== FAILED TEST  ====== FAILED TEST  ====== FAILED TEST  ====== FAILED TEST  ====== 
 FAILED TEST  ======                                                             FAILED TEST  ====== 
