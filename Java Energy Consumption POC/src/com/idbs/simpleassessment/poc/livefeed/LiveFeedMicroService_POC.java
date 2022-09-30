@@ -1,9 +1,7 @@
 package com.idbs.simpleassessment.poc.livefeed;
 
-import static com.idbs.simpleassessment.poc.EnergyDataManager.ALAMEDA_CALIFORNIA_FEED_ID;
-import static com.idbs.simpleassessment.poc.EnergyDataManager.WOKING_FEED_ID;
 import static com.idbs.simpleassessment.poc.EnergyDataManager.LONDON_WATERLOO_FEED_ID;
-import static com.idbs.simpleassessment.poc.EnergyDataManager.PORTLAND_MAINE_FEED_ID;
+import static com.idbs.simpleassessment.poc.EnergyDataManager.WOKING_FEED_ID;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -81,14 +79,6 @@ public class LiveFeedMicroService_POC
         else if (feedId.equals(WOKING_FEED_ID))
         {
             retVal = new File(WOKING_FEED_ID + ".dat");
-        }
-        else if (feedId.equals(PORTLAND_MAINE_FEED_ID))
-        {
-            retVal = new File(PORTLAND_MAINE_FEED_ID + ".dat");
-        }
-        else if (feedId.equals(ALAMEDA_CALIFORNIA_FEED_ID))
-        {
-            retVal = new File(ALAMEDA_CALIFORNIA_FEED_ID + ".dat");
         }
         else
         {
